@@ -975,7 +975,7 @@ function route(){
   const h = (location.hash||"#jeu").slice(1);
   const wk = WEEKS.find(w=>w.id===h);
   document.querySelectorAll(".links a").forEach(a=>a.classList.toggle("on", !!(a.dataset.r===h || (h==="" && a.dataset.r==="jeu") || (wk && a.dataset.r==="archives"))));
-  if(h==="apercu") return pagePreview();
+  if(h==="apercu" && !/github\.io$/.test(location.hostname)) return pagePreview();
   if(wk) return pageGame(wk, true);
   if(h==="archives") return pageArchives();
   if(h==="newsletter") return pageNewsletter();
