@@ -1,0 +1,1048 @@
+{
+ "updated": "2026-11-15",
+ "note": "Faits collectés chaque jour (origine absente) + faits tirés des archives Revenue Game (origine=archive, ed=numéro). Chaque fait a une source et une date. used=true une fois utilisé dans une grille.",
+ "items": [
+  {
+   "date": "2026-11-14",
+   "fact": "Les revenus sponsoring de la MLB sont passés de 1,35 Md$ en 2022 à 2,12 Md$ en 2026 (+57 %), alors que le nombre de deals n’a progressé que de 17 %.",
+   "source": "Insider Sport / SponsorUnited",
+   "url": "https://insidersport.com/2026/11/04/mlb-sponsorship-revenue-hits-2bn/",
+   "used": false
+  },
+  {
+   "date": "2026-11-14",
+   "fact": "Les offres finales pour Manchester United dépasseraient 6,2 Md$, sous les 7,2 Md$ espérés par les Glazer.",
+   "source": "Front Office Sports, 5 novembre 2026",
+   "url": "https://frontofficesports.com/manchester-united-finalists-submit-record-bids-at-deadline/",
+   "used": false
+  },
+  {
+   "date": "2026-11-14",
+   "fact": "La famille Lewis a injecté 134 M$ dans Tottenham, qui a rejeté trois tentatives de rachat depuis septembre.",
+   "source": "Front Office Sports, 4 novembre 2026",
+   "url": "https://frontofficesports.com/article/tottenham-hotspur-owner-injects-134m-into-club-amid-hot-start-to-season/",
+   "used": false
+  },
+  {
+   "date": "2026-11-14",
+   "fact": "Pitchwise Holdings prend 42 % de Valence sur une valorisation de 1,25 Md€, presque 10 fois les revenus 2024-25 du club.",
+   "source": "Inside World Football, 26 octobre 2026",
+   "url": "https://www.insideworldfootball.com/2026/10/26/us-private-investors-pitchwise-holdings-to-take-42-stake-in-valencia/",
+   "used": false
+  },
+  {
+   "date": "2026-11-15",
+   "fact": "Heath Freeman rachète les San Jose Earthquakes et leur stade PayPal Park pour une valeur d'entreprise de 625 M$, près de vingt ans après leur achat par John Fisher en 2007.",
+   "source": "Front Office Sports, 13 novembre 2026",
+   "url": "https://frontofficesports.com/article/as-owner-john-fisher-exits-mls-with-625m-earthquakes-deal/",
+   "used": false
+  },
+  {
+   "date": "2026-11-15",
+   "fact": "Le match NFL Ravens-Cowboys joué à Rio de Janeiro a réuni 24,9 millions de téléspectateurs américains sur CBS, record absolu pour un match NFL à l'international.",
+   "source": "Front Office Sports, 11 novembre 2026",
+   "url": "https://frontofficesports.com/article/nfl-network-europe-games-average-record-6-9m-first-espn-season/",
+   "used": false
+  },
+  {
+   "date": "2026-11-15",
+   "fact": "Dans le nouveau stade des Buffalo Bills, qui a coûté 2,2 Md$, le hot-dog est vendu 11,63 $, le plus cher de toute la NFL.",
+   "source": "Front Office Sports, 12 novembre 2026",
+   "url": "https://frontofficesports.com/newsletter/bears-get-another-10b-pitch/",
+   "used": false
+  },
+  {
+   "date": "2026-11-15",
+   "fact": "L'interdiction des sponsors maillot de paris en Premier League n'a supprimé qu'environ 10 % des messages de jeux d'argent, et la moitié de cette baisse a été compensée par les manches, les tenues d'entraînement et les écrans LED.",
+   "source": "Front Office Sports, 13 novembre 2026",
+   "url": "https://frontofficesports.com/article/english-soccer-still-inundated-by-gambling-ads-despite-jersey-ban/",
+   "used": false
+  },
+  {
+   "date": "2026-11-15",
+   "fact": "Un tribunal italien a annulé le contrat de sponsoring de 19 M€ entre Polymarket et la Lazio.",
+   "source": "Front Office Sports, 13 novembre 2026",
+   "url": "https://frontofficesports.com/article/english-soccer-still-inundated-by-gambling-ads-despite-jersey-ban/",
+   "used": false
+  },
+  {
+   "date": "2026-11-15",
+   "fact": "Josh Kushner et Bob Iger proposent des parts minoritaires des Lakers à partir de 250 M$ par investisseur, après avoir racheté la franchise sur une valorisation record de 12,5 Md$.",
+   "source": "Front Office Sports, 30 octobre 2026",
+   "url": "https://frontofficesports.com/article/josh-kushner-bob-iger-shopping-lakers-stakes-starting-at-250-million/",
+   "used": false
+  },
+  {
+   "date": "2025-11-04",
+   "fact": "Le futur Old Trafford pourrait rapporter 500 M£ sur 10 ans via un contrat de naming.",
+   "source": "Revenue Game #1",
+   "url": "https://www.linkedin.com/pulse/le-naming-dans-sport-actif-strat%C3%A9gique-ou-miroir-aux-alouettes-cotte-lt1ze",
+   "used": false,
+   "origine": "archive",
+   "ed": 1
+  },
+  {
+   "date": "2025-11-04",
+   "fact": "Le projet du nouveau Old Trafford promet 2 Md£ d'investissement, 92 000 emplois et 17 000 logements.",
+   "source": "Revenue Game #1",
+   "url": "https://www.linkedin.com/pulse/le-naming-dans-sport-actif-strat%C3%A9gique-ou-miroir-aux-alouettes-cotte-lt1ze",
+   "used": false,
+   "origine": "archive",
+   "ed": 1
+  },
+  {
+   "date": "2025-11-11",
+   "fact": "Selon Nielsen Sport, la Coupe du monde des clubs a réuni 2,7 milliards de spectateurs et 10 milliards d'impressions sociales.",
+   "source": "Revenue Game #2",
+   "url": "https://www.linkedin.com/pulse/fifa-powered-dazn-%C3%A0-laube-dun-nouveau-mod%C3%A8le-de-diffusion-cotte-fhcre",
+   "used": false,
+   "origine": "archive",
+   "ed": 2
+  },
+  {
+   "date": "2025-11-11",
+   "fact": "80 % de la consommation de la Coupe du monde des clubs s'est faite sur des contenus non-live : documentaires, formats courts, storytelling.",
+   "source": "Revenue Game #2",
+   "url": "https://www.linkedin.com/pulse/fifa-powered-dazn-%C3%A0-laube-dun-nouveau-mod%C3%A8le-de-diffusion-cotte-fhcre",
+   "used": true,
+   "origine": "archive",
+   "ed": 2
+  },
+  {
+   "date": "2025-11-18",
+   "fact": "Toto Wolff est entré chez Mercedes F1 en 2013 en achetant environ 33 % de l'écurie pour environ 55 M$.",
+   "source": "Revenue Game #3",
+   "url": "https://www.linkedin.com/pulse/la-f1-sport-ou-plateforme-m%C3%A9dia-totale-revenue-game-antonin-cotte-aihoe",
+   "used": false,
+   "origine": "archive",
+   "ed": 3
+  },
+  {
+   "date": "2025-11-18",
+   "fact": "Liberty Media a racheté la F1 en janvier 2017 pour 8 Md$.",
+   "source": "Revenue Game #3",
+   "url": "https://www.linkedin.com/pulse/la-f1-sport-ou-plateforme-m%C3%A9dia-totale-revenue-game-antonin-cotte-aihoe",
+   "used": false,
+   "origine": "archive",
+   "ed": 3
+  },
+  {
+   "date": "2025-11-18",
+   "fact": "F1 : The Movie a rapporté 629 M$ au box-office, record pour un film sportif.",
+   "source": "Revenue Game #3",
+   "url": "https://www.linkedin.com/pulse/la-f1-sport-ou-plateforme-m%C3%A9dia-totale-revenue-game-antonin-cotte-aihoe",
+   "used": true,
+   "origine": "archive",
+   "ed": 3
+  },
+  {
+   "date": "2025-11-18",
+   "fact": "Apple paierait environ 150 M$ par an pour diffuser toute la F1 aux États-Unis de 2026 à 2030.",
+   "source": "Revenue Game #3",
+   "url": "https://www.linkedin.com/pulse/la-f1-sport-ou-plateforme-m%C3%A9dia-totale-revenue-game-antonin-cotte-aihoe",
+   "used": false,
+   "origine": "archive",
+   "ed": 3
+  },
+  {
+   "date": "2025-12-02",
+   "fact": "Avec une valorisation entre 6 et 10 Md€, 5 à 10 % du Real Madrid représenteraient 300 M€ à 1 Md€.",
+   "source": "Revenue Game #5",
+   "url": "https://www.linkedin.com/pulse/real-madrid-x-lvmh-quand-le-football-devient-actif-de-antonin-cotte-a7afe",
+   "used": false,
+   "origine": "archive",
+   "ed": 5
+  },
+  {
+   "date": "2025-12-02",
+   "fact": "La rénovation du Bernabéu a coûté environ 1,6 Md€.",
+   "source": "Revenue Game #5",
+   "url": "https://www.linkedin.com/pulse/real-madrid-x-lvmh-quand-le-football-devient-actif-de-antonin-cotte-a7afe",
+   "used": false,
+   "origine": "archive",
+   "ed": 5
+  },
+  {
+   "date": "2025-12-09",
+   "fact": "Les New York Knicks touchent environ 30 M$ par saison de Experience Abu Dhabi pour leur patch maillot.",
+   "source": "Revenue Game #6",
+   "url": "https://www.linkedin.com/pulse/nba-le-maillot-un-actif-m%C3%A9dia-%C3%A0-part-enti%C3%A8re-revenue-antonin-cotte-v5mpe",
+   "used": true,
+   "origine": "archive",
+   "ed": 6
+  },
+  {
+   "date": "2025-12-09",
+   "fact": "Les Los Angeles Clippers ont signé un patch maillot à 15 M$ avec Visit Rwanda.",
+   "source": "Revenue Game #6",
+   "url": "https://www.linkedin.com/pulse/nba-le-maillot-un-actif-m%C3%A9dia-%C3%A0-part-enti%C3%A8re-revenue-antonin-cotte-v5mpe",
+   "used": false,
+   "origine": "archive",
+   "ed": 6
+  },
+  {
+   "date": "2025-12-09",
+   "fact": "Ledger verserait environ 12 à 14 M$ par an aux San Antonio Spurs.",
+   "source": "Revenue Game #6",
+   "url": "https://www.linkedin.com/pulse/nba-le-maillot-un-actif-m%C3%A9dia-%C3%A0-part-enti%C3%A8re-revenue-antonin-cotte-v5mpe",
+   "used": false,
+   "origine": "archive",
+   "ed": 6
+  },
+  {
+   "date": "2025-12-09",
+   "fact": "NBA 2K génère plus de 100 M$ par an en microtransactions.",
+   "source": "Revenue Game #6",
+   "url": "https://www.linkedin.com/pulse/nba-le-maillot-un-actif-m%C3%A9dia-%C3%A0-part-enti%C3%A8re-revenue-antonin-cotte-v5mpe",
+   "used": false,
+   "origine": "archive",
+   "ed": 6
+  },
+  {
+   "date": "2025-12-16",
+   "fact": "L'offre de Netflix sur Warner Bros. Discovery valorisait le groupe à 82,7 Md$, soit 27,75 $ par action.",
+   "source": "Revenue Game #7",
+   "url": "https://www.linkedin.com/pulse/paramount-vs-netflix-le-choc-des-titans-qui-d%C3%A9passe-hollywood-cotte-7t8re",
+   "used": false,
+   "origine": "archive",
+   "ed": 7
+  },
+  {
+   "date": "2025-12-23",
+   "fact": "Depuis 2010, les Jeux d'hiver affichent un déficit moyen de 4,7 Md$ par édition.",
+   "source": "Revenue Game #8",
+   "url": "https://www.linkedin.com/pulse/et-si-la-france-abandonnait-ses-jo-2030-revenue-game-antonin-cotte-rante",
+   "used": true,
+   "origine": "archive",
+   "ed": 8
+  },
+  {
+   "date": "2025-12-23",
+   "fact": "77 % des épreuves des Jeux d'hiver se déroulent en plein air.",
+   "source": "Revenue Game #8",
+   "url": "https://www.linkedin.com/pulse/et-si-la-france-abandonnait-ses-jo-2030-revenue-game-antonin-cotte-rante",
+   "used": false,
+   "origine": "archive",
+   "ed": 8
+  },
+  {
+   "date": "2025-12-23",
+   "fact": "Les infrastructures des Jeux d'hiver coûtent en moyenne 5,3 Md$ par édition.",
+   "source": "Revenue Game #8",
+   "url": "https://www.linkedin.com/pulse/et-si-la-france-abandonnait-ses-jo-2030-revenue-game-antonin-cotte-rante",
+   "used": false,
+   "origine": "archive",
+   "ed": 8
+  },
+  {
+   "date": "2025-12-30",
+   "fact": "Un stade possédé par son club peut rapporter environ 40 M€ par an en matchday et 5 à 10 M€ en concerts et événements.",
+   "source": "Revenue Game #9",
+   "url": "https://www.linkedin.com/pulse/et-si-les-clubs-fran%C3%A7ais-reprenaient-le-contr%C3%B4le-de-leurs-cotte-meame",
+   "used": false,
+   "origine": "archive",
+   "ed": 9
+  },
+  {
+   "date": "2026-01-06",
+   "fact": "Près de 50 millions d'Américains ont joué au pickleball en 2023, environ 20 % des adultes.",
+   "source": "Revenue Game #10",
+   "url": "https://www.linkedin.com/pulse/et-si-le-tennis-n%C3%A9tait-plus-produit-phare-de-la-fft-antonin-cotte-0czce",
+   "used": false,
+   "origine": "archive",
+   "ed": 10
+  },
+  {
+   "date": "2026-01-06",
+   "fact": "Le padel compte plus de 1 800 terrains en France, avec une croissance annuelle de 20 à 25 %.",
+   "source": "Revenue Game #10",
+   "url": "https://www.linkedin.com/pulse/et-si-le-tennis-n%C3%A9tait-plus-produit-phare-de-la-fft-antonin-cotte-0czce",
+   "used": false,
+   "origine": "archive",
+   "ed": 10
+  },
+  {
+   "date": "2026-01-13",
+   "fact": "Les revenus de Target, fabricant de fléchettes, sont passés de 16,8 M£ en 2023 à 45,6 M£ en 2024.",
+   "source": "Revenue Game #11",
+   "url": "https://www.linkedin.com/pulse/luke-littler-ou-la-m%C3%A9tamorphose-silencieuse-des-fl%C3%A9chettes-cotte-erhbe",
+   "used": false,
+   "origine": "archive",
+   "ed": 11
+  },
+  {
+   "date": "2026-01-20",
+   "fact": "L'Open d'Australie a distribué 111,5 M$ australiens de prize money.",
+   "source": "Revenue Game #12",
+   "url": "https://www.linkedin.com/pulse/et-si-lopen-daustralie-%C3%A9tait-un-exemple-parfait-pour-la-antonin-cotte-qzqze",
+   "used": false,
+   "origine": "archive",
+   "ed": 12
+  },
+  {
+   "date": "2026-01-20",
+   "fact": "Melbourne Park a attiré plus de 1,2 million de spectateurs, record mondial pour un tournoi de tennis.",
+   "source": "Revenue Game #12",
+   "url": "https://www.linkedin.com/pulse/et-si-lopen-daustralie-%C3%A9tait-un-exemple-parfait-pour-la-antonin-cotte-qzqze",
+   "used": false,
+   "origine": "archive",
+   "ed": 12
+  },
+  {
+   "date": "2026-01-20",
+   "fact": "Les vainqueurs de l'Open d'Australie touchent 4,15 M$ chacun, et un joueur éliminé au premier tour 150 000 $.",
+   "source": "Revenue Game #12",
+   "url": "https://www.linkedin.com/pulse/et-si-lopen-daustralie-%C3%A9tait-un-exemple-parfait-pour-la-antonin-cotte-qzqze",
+   "used": true,
+   "origine": "archive",
+   "ed": 12
+  },
+  {
+   "date": "2026-01-27",
+   "fact": "Le Washington Spirit, acheté 35 M$ en 2022, était valorisé 130 M$ trois ans plus tard.",
+   "source": "Revenue Game #13",
+   "url": "https://www.linkedin.com/pulse/michele-kang-le-football-f%C3%A9minin-comme-prochain-actif-antonin-cotte-3vxec",
+   "used": true,
+   "origine": "archive",
+   "ed": 13
+  },
+  {
+   "date": "2026-01-27",
+   "fact": "Trinity Rodman touche plus de 2 M$ par an au Washington Spirit, un record.",
+   "source": "Revenue Game #13",
+   "url": "https://www.linkedin.com/pulse/michele-kang-le-football-f%C3%A9minin-comme-prochain-actif-antonin-cotte-3vxec",
+   "used": true,
+   "origine": "archive",
+   "ed": 13
+  },
+  {
+   "date": "2026-02-03",
+   "fact": "Aux États-Unis, le marché des autographes et memorabilia dépasse 5 Md$ par an.",
+   "source": "Revenue Game #14",
+   "url": "https://www.linkedin.com/pulse/quand-une-c%C3%A9l%C3%A9bration-devient-strat%C3%A9gie-de-marque-revenue-cotte-sr3de",
+   "used": false,
+   "origine": "archive",
+   "ed": 14
+  },
+  {
+   "date": "2026-02-10",
+   "fact": "Les packages hospitalité du Super Bowl vont de 5 750 $ à plus de 50 000 $.",
+   "source": "Revenue Game #15",
+   "url": "https://www.linkedin.com/pulse/bad-bunny-x-super-bowl-lx-le-show-%C3%A0-lam%C3%A9ricaine-par-excellence-cotte-zitjc",
+   "used": false,
+   "origine": "archive",
+   "ed": 15
+  },
+  {
+   "date": "2026-02-10",
+   "fact": "Au Levi's Stadium, 13 % des places du Super Bowl étaient réservées à On Location.",
+   "source": "Revenue Game #15",
+   "url": "https://www.linkedin.com/pulse/bad-bunny-x-super-bowl-lx-le-show-%C3%A0-lam%C3%A9ricaine-par-excellence-cotte-zitjc",
+   "used": false,
+   "origine": "archive",
+   "ed": 15
+  },
+  {
+   "date": "2026-02-10",
+   "fact": "Bad Bunny a cumulé 19,8 milliards de streams Spotify en 2025.",
+   "source": "Revenue Game #15",
+   "url": "https://www.linkedin.com/pulse/bad-bunny-x-super-bowl-lx-le-show-%C3%A0-lam%C3%A9ricaine-par-excellence-cotte-zitjc",
+   "used": false,
+   "origine": "archive",
+   "ed": 15
+  },
+  {
+   "date": "2026-02-10",
+   "fact": "L'American Gaming Association estimait à 1,76 Md$ les mises légales sur le Super Bowl.",
+   "source": "Revenue Game #15",
+   "url": "https://www.linkedin.com/pulse/bad-bunny-x-super-bowl-lx-le-show-%C3%A0-lam%C3%A9ricaine-par-excellence-cotte-zitjc",
+   "used": false,
+   "origine": "archive",
+   "ed": 15
+  },
+  {
+   "date": "2026-02-17",
+   "fact": "NBC a investi 7,5 Md$ dans les JO pour 2022-2032, plus 3 Md$ pour prolonger jusqu'en 2036.",
+   "source": "Revenue Game #16",
+   "url": "https://www.linkedin.com/pulse/milan-cortina-2026-revenue-game-16-antonin-cotte-knj7c",
+   "used": false,
+   "origine": "archive",
+   "ed": 16
+  },
+  {
+   "date": "2026-02-17",
+   "fact": "Les revenus du programme TOP du CIO sont tombés à 560 M$, leur plus bas niveau depuis 2020.",
+   "source": "Revenue Game #16",
+   "url": "https://www.linkedin.com/pulse/milan-cortina-2026-revenue-game-16-antonin-cotte-knj7c",
+   "used": true,
+   "origine": "archive",
+   "ed": 16
+  },
+  {
+   "date": "2026-02-17",
+   "fact": "Une place pour la cérémonie de clôture de Milan Cortina 2026 pouvait coûter près de 2 900 €.",
+   "source": "Revenue Game #16",
+   "url": "https://www.linkedin.com/pulse/milan-cortina-2026-revenue-game-16-antonin-cotte-knj7c",
+   "used": false,
+   "origine": "archive",
+   "ed": 16
+  },
+  {
+   "date": "2026-02-26",
+   "fact": "Le City Football Group a signé avec Puma un contrat d'environ 1 Md£ sur dix ans.",
+   "source": "Revenue Game #17",
+   "url": "https://www.linkedin.com/pulse/multi-club-ownership-promesse-fissures-et-dilemme-revenue-cotte-hzlwc",
+   "used": false,
+   "origine": "archive",
+   "ed": 17
+  },
+  {
+   "date": "2026-03-03",
+   "fact": "La Jordan Brand génère environ 6,6 Md$ de revenus wholesale par an.",
+   "source": "Revenue Game #18",
+   "url": "https://www.linkedin.com/pulse/les-%C3%A9quipementiers-et-la-transformation-du-mod%C3%A8le-signature-cotte-say8c",
+   "used": false,
+   "origine": "archive",
+   "ed": 18
+  },
+  {
+   "date": "2026-03-03",
+   "fact": "Le contrat Uniqlo de Roger Federer, signé en 2018, pourrait atteindre 300 M$ sur dix ans.",
+   "source": "Revenue Game #18",
+   "url": "https://www.linkedin.com/pulse/les-%C3%A9quipementiers-et-la-transformation-du-mod%C3%A8le-signature-cotte-say8c",
+   "used": false,
+   "origine": "archive",
+   "ed": 18
+  },
+  {
+   "date": "2026-03-10",
+   "fact": "Les dix clubs de Premiership anglaise cumulent un déficit d'environ 34 M£ sur la saison 2023-2024.",
+   "source": "Revenue Game #19",
+   "url": "https://www.linkedin.com/pulse/open-vs-closed-leagues-le-dilemme-structurel-du-sport-antonin-cotte-vquwc",
+   "used": false,
+   "origine": "archive",
+   "ed": 19
+  },
+  {
+   "date": "2026-03-17",
+   "fact": "Les cinq matchs du XV de France au Tournoi ont cumulé 35,5 millions de téléspectateurs.",
+   "source": "Revenue Game #20",
+   "url": "https://www.linkedin.com/pulse/le-crunch-comment-un-match-de-rugby-devient-actif-m%C3%A9diatique-cotte-wx9pc",
+   "used": false,
+   "origine": "archive",
+   "ed": 20
+  },
+  {
+   "date": "2026-03-17",
+   "fact": "Le maillot collector des 120 ans du Crunch était vendu 90 € en boutique officielle.",
+   "source": "Revenue Game #20",
+   "url": "https://www.linkedin.com/pulse/le-crunch-comment-un-match-de-rugby-devient-actif-m%C3%A9diatique-cotte-wx9pc",
+   "used": false,
+   "origine": "archive",
+   "ed": 20
+  },
+  {
+   "date": "2026-03-24",
+   "fact": "Le marché des partenariats sportifs en France atteint 1,78 Md€ en 2025, en hausse d'au moins 6 %.",
+   "source": "Revenue Game #21",
+   "url": "https://www.linkedin.com/pulse/sponsoring-sportif-en-france-un-march%C3%A9-croissance-mais-antonin-cotte-tbcvc",
+   "used": true,
+   "origine": "archive",
+   "ed": 21
+  },
+  {
+   "date": "2026-03-24",
+   "fact": "Le football capte près de 40 % des investissements de sponsoring en France.",
+   "source": "Revenue Game #21",
+   "url": "https://www.linkedin.com/pulse/sponsoring-sportif-en-france-un-march%C3%A9-croissance-mais-antonin-cotte-tbcvc",
+   "used": false,
+   "origine": "archive",
+   "ed": 21
+  },
+  {
+   "date": "2026-03-24",
+   "fact": "En France, 8 % des contrats de sponsoring représentent près de 80 % du marché en valeur.",
+   "source": "Revenue Game #21",
+   "url": "https://www.linkedin.com/pulse/sponsoring-sportif-en-france-un-march%C3%A9-croissance-mais-antonin-cotte-tbcvc",
+   "used": false,
+   "origine": "archive",
+   "ed": 21
+  },
+  {
+   "date": "2026-03-24",
+   "fact": "62 % des Français acceptent la présence d'une marque sur un maillot.",
+   "source": "Revenue Game #21",
+   "url": "https://www.linkedin.com/pulse/sponsoring-sportif-en-france-un-march%C3%A9-croissance-mais-antonin-cotte-tbcvc",
+   "used": false,
+   "origine": "archive",
+   "ed": 21
+  },
+  {
+   "date": "2026-03-31",
+   "fact": "Paris 2024 a nécessité environ 791 tonnes de glace, soit 47 millions de glaçons.",
+   "source": "Revenue Game #22",
+   "url": "https://www.linkedin.com/pulse/m%C3%A9ga-events-ce-que-paris-2024-nous-apprend-vraiment-avant-cotte-ivu8c",
+   "used": true,
+   "origine": "archive",
+   "ed": 22
+  },
+  {
+   "date": "2026-04-07",
+   "fact": "56 % des fans utilisent régulièrement un second écran pendant les matchs.",
+   "source": "Revenue Game #23",
+   "url": "https://www.linkedin.com/pulse/ce-que-l%C3%A9tude-sports-moments-de-teads-dit-sur-lattention-cotte-ozn4c",
+   "used": false,
+   "origine": "archive",
+   "ed": 23
+  },
+  {
+   "date": "2026-04-07",
+   "fact": "47 % des sondés font confiance aux publicités dans le sport, contre 37 % sur les réseaux sociaux.",
+   "source": "Revenue Game #23",
+   "url": "https://www.linkedin.com/pulse/ce-que-l%C3%A9tude-sports-moments-de-teads-dit-sur-lattention-cotte-ozn4c",
+   "used": false,
+   "origine": "archive",
+   "ed": 23
+  },
+  {
+   "date": "2026-04-21",
+   "fact": "Nike paierait environ 100 M€ par an à la DFB, le double de ce que versait Adidas, après soixante-dix ans de partenariat.",
+   "source": "Revenue Game #25",
+   "url": "https://www.linkedin.com/pulse/nike-vs-adidas-la-guerre-des-%C3%A9quipementiers-revenue-antonin-cotte-1bzfc",
+   "used": true,
+   "origine": "archive",
+   "ed": 25
+  },
+  {
+   "date": "2026-04-28",
+   "fact": "En France, les mises sur les paris sportifs ont atteint 1,766 Md€ en 2025, en hausse de 10,4 %.",
+   "source": "Revenue Game #26",
+   "url": "https://www.linkedin.com/pulse/paris-sportifs-et-basket-le-march%C3%A9-qui-se-retourne-contre-cotte-jhlbc",
+   "used": false,
+   "origine": "archive",
+   "ed": 26
+  },
+  {
+   "date": "2026-04-28",
+   "fact": "Les paris sur le basket ont bondi de 127 % en France, portés par Victor Wembanyama.",
+   "source": "Revenue Game #26",
+   "url": "https://www.linkedin.com/pulse/paris-sportifs-et-basket-le-march%C3%A9-qui-se-retourne-contre-cotte-jhlbc",
+   "used": false,
+   "origine": "archive",
+   "ed": 26
+  },
+  {
+   "date": "2026-04-28",
+   "fact": "Kalshi a traité 23,8 Md$, soit +1 100 % en un an.",
+   "source": "Revenue Game #26",
+   "url": "https://www.linkedin.com/pulse/paris-sportifs-et-basket-le-march%C3%A9-qui-se-retourne-contre-cotte-jhlbc",
+   "used": false,
+   "origine": "archive",
+   "ed": 26
+  },
+  {
+   "date": "2026-05-05",
+   "fact": "Decathlon réalise 4,98 Md€ de chiffre d'affaires en France en 2025, 24 % de son activité mondiale.",
+   "source": "Revenue Game #27",
+   "url": "https://www.linkedin.com/pulse/decathlon-la-marche-vers-le-haut-revenue-game-27-antonin-cotte-x9uoc",
+   "used": true,
+   "origine": "archive",
+   "ed": 27
+  },
+  {
+   "date": "2026-05-05",
+   "fact": "Le digital et la marketplace de Decathlon ont bondi de 49 %.",
+   "source": "Revenue Game #27",
+   "url": "https://www.linkedin.com/pulse/decathlon-la-marche-vers-le-haut-revenue-game-27-antonin-cotte-x9uoc",
+   "used": false,
+   "origine": "archive",
+   "ed": 27
+  },
+  {
+   "date": "2026-05-05",
+   "fact": "Decathlon vise 2 milliards de clients dans le monde d'ici dix ans.",
+   "source": "Revenue Game #27",
+   "url": "https://www.linkedin.com/pulse/decathlon-la-marche-vers-le-haut-revenue-game-27-antonin-cotte-x9uoc",
+   "used": false,
+   "origine": "archive",
+   "ed": 27
+  },
+  {
+   "date": "2026-05-12",
+   "fact": "Panini anticipait 1,48 Md$ de ventes sur le Mondial 2026, contre 720 M$ pour 2022.",
+   "source": "Revenue Game #28",
+   "url": "https://www.linkedin.com/pulse/panini-fanatics-club-legacyz-la-bataille-pour-l%C3%A2me-du-antonin-cotte-qggmc",
+   "used": true,
+   "origine": "archive",
+   "ed": 28
+  },
+  {
+   "date": "2026-05-12",
+   "fact": "Fanatics a racheté Topps pour environ 500 M$ en 2022.",
+   "source": "Revenue Game #28",
+   "url": "https://www.linkedin.com/pulse/panini-fanatics-club-legacyz-la-bataille-pour-l%C3%A2me-du-antonin-cotte-qggmc",
+   "used": false,
+   "origine": "archive",
+   "ed": 28
+  },
+  {
+   "date": "2026-05-12",
+   "fact": "Les collectibles UEFA de Fanatics sont passés de 15 M$ à plus de 200 M$.",
+   "source": "Revenue Game #28",
+   "url": "https://www.linkedin.com/pulse/panini-fanatics-club-legacyz-la-bataille-pour-l%C3%A2me-du-antonin-cotte-qggmc",
+   "used": false,
+   "origine": "archive",
+   "ed": 28
+  },
+  {
+   "date": "2026-06-02",
+   "fact": "Sur un week-end de Grand Prix, près de 80 milliards d'informations transitent par le cloud d'Oracle.",
+   "source": "Revenue Game #29",
+   "url": "https://www.linkedin.com/pulse/pourquoi-sailgp-est-devenu-lun-des-actifs-les-plus-du-antonin-cotte-gh4vc",
+   "used": false,
+   "origine": "archive",
+   "ed": 29
+  },
+  {
+   "date": "2026-06-09",
+   "fact": "La FIFA projette 10,9 Md$ de revenus pour le Mondial 2026, +56 % par rapport au Qatar.",
+   "source": "Revenue Game #30",
+   "url": "https://www.linkedin.com/pulse/pourquoi-certaines-villes-ont-refus%C3%A9-daccueillir-la-coupe-cotte-xtgzc",
+   "used": false,
+   "origine": "archive",
+   "ed": 30
+  },
+  {
+   "date": "2026-06-09",
+   "fact": "La FIFA distribue 871 M$ de prize money au Mondial 2026, un record.",
+   "source": "Revenue Game #30",
+   "url": "https://www.linkedin.com/pulse/pourquoi-certaines-villes-ont-refus%C3%A9-daccueillir-la-coupe-cotte-xtgzc",
+   "used": true,
+   "origine": "archive",
+   "ed": 30
+  },
+  {
+   "date": "2026-06-09",
+   "fact": "Toronto estime sa facture à au moins 380 M$ canadiens pour six matchs du Mondial 2026.",
+   "source": "Revenue Game #30",
+   "url": "https://www.linkedin.com/pulse/pourquoi-certaines-villes-ont-refus%C3%A9-daccueillir-la-coupe-cotte-xtgzc",
+   "used": false,
+   "origine": "archive",
+   "ed": 30
+  },
+  {
+   "date": "2026-06-16",
+   "fact": "L'événement UFC à la Maison-Blanche a été évalué à 60 M$.",
+   "source": "Revenue Game #31",
+   "url": "https://www.linkedin.com/pulse/ufc-%C3%A0-la-maison-blanche-quand-le-sport-business-rencontre-cotte-fwuwc",
+   "used": false,
+   "origine": "archive",
+   "ed": 31
+  },
+  {
+   "date": "2026-06-16",
+   "fact": "L'accord TV de l'UFC avec Paramount est évalué à 7,7 Md$ sur sept ans.",
+   "source": "Revenue Game #31",
+   "url": "https://www.linkedin.com/pulse/ufc-%C3%A0-la-maison-blanche-quand-le-sport-business-rencontre-cotte-fwuwc",
+   "used": false,
+   "origine": "archive",
+   "ed": 31
+  },
+  {
+   "date": "2026-06-16",
+   "fact": "Le premier événement UFC avait vendu environ 86 000 pay-per-view à 14,95 $.",
+   "source": "Revenue Game #31",
+   "url": "https://www.linkedin.com/pulse/ufc-%C3%A0-la-maison-blanche-quand-le-sport-business-rencontre-cotte-fwuwc",
+   "used": false,
+   "origine": "archive",
+   "ed": 31
+  },
+  {
+   "date": "2026-06-23",
+   "fact": "Les Finales NBA 2026 Spurs-Knicks ont réuni 20,6 millions de téléspectateurs en moyenne, +100 % sur 2025.",
+   "source": "Revenue Game #32",
+   "url": "https://www.linkedin.com/pulse/wembanyama-construire-la-prochaine-ic%C3%B4ne-mondiale-du-sport-cotte-al0pc",
+   "used": true,
+   "origine": "archive",
+   "ed": 32
+  },
+  {
+   "date": "2026-06-23",
+   "fact": "Le Game 3 des Finales NBA 2026 a atteint un pic de 26,3 millions de téléspectateurs.",
+   "source": "Revenue Game #32",
+   "url": "https://www.linkedin.com/pulse/wembanyama-construire-la-prochaine-ic%C3%B4ne-mondiale-du-sport-cotte-al0pc",
+   "used": false,
+   "origine": "archive",
+   "ed": 32
+  },
+  {
+   "date": "2026-06-23",
+   "fact": "Les revenus de sponsoring de Victor Wembanyama sont estimés entre 15 et 25 M$ par an.",
+   "source": "Revenue Game #32",
+   "url": "https://www.linkedin.com/pulse/wembanyama-construire-la-prochaine-ic%C3%B4ne-mondiale-du-sport-cotte-al0pc",
+   "used": false,
+   "origine": "archive",
+   "ed": 32
+  },
+  {
+   "date": "2026-06-30",
+   "fact": "Le PSG avait offert 38 M€ pour le Parc des Princes en 2023, les Domaines l'estiment à 200 M€ en 2026.",
+   "source": "Revenue Game #33",
+   "url": "https://www.linkedin.com/pulse/le-parc-des-princes-38-millions-offerts-200-demand%C3%A9s-qui-cotte-ooqge",
+   "used": false,
+   "origine": "archive",
+   "ed": 33
+  },
+  {
+   "date": "2026-06-30",
+   "fact": "Un Parc des Princes à 65 000 places générerait 60 à 70 M€ de plus par saison.",
+   "source": "Revenue Game #33",
+   "url": "https://www.linkedin.com/pulse/le-parc-des-princes-38-millions-offerts-200-demand%C3%A9s-qui-cotte-ooqge",
+   "used": false,
+   "origine": "archive",
+   "ed": 33
+  },
+  {
+   "date": "2026-07-07",
+   "fact": "LCL paierait 7 à 10 M€ par an pour le maillot jaune, pour un rendu média estimé à 140 M€.",
+   "source": "Revenue Game #34",
+   "url": "https://www.linkedin.com/pulse/tour-de-france-35-millions-deuros-le-ticket-dentr%C3%A9e-18-antonin-cotte-zsyqe",
+   "used": true,
+   "origine": "archive",
+   "ed": 34
+  },
+  {
+   "date": "2026-07-07",
+   "fact": "Le ticket d'entrée annuel dans la caravane du Tour démarre autour de 3,5 M€.",
+   "source": "Revenue Game #34",
+   "url": "https://www.linkedin.com/pulse/tour-de-france-35-millions-deuros-le-ticket-dentr%C3%A9e-18-antonin-cotte-zsyqe",
+   "used": false,
+   "origine": "archive",
+   "ed": 34
+  },
+  {
+   "date": "2026-07-07",
+   "fact": "Faire rouler un char dans la caravane du Tour coûte environ 350 000 € par marque et par édition.",
+   "source": "Revenue Game #34",
+   "url": "https://www.linkedin.com/pulse/tour-de-france-35-millions-deuros-le-ticket-dentr%C3%A9e-18-antonin-cotte-zsyqe",
+   "used": false,
+   "origine": "archive",
+   "ed": 34
+  },
+  {
+   "date": "2026-07-14",
+   "fact": "Le budget prévisionnel 2026-2027 de la FFF atteint 348 M€, +20 % sur un an, un record.",
+   "source": "Revenue Game #35",
+   "url": "https://www.linkedin.com/pulse/f%C3%A9d%C3%A9ration-fran%C3%A7aise-de-football-une-troisi%C3%A8me-%C3%A9toile-antonin-cotte-1j2ye",
+   "used": false,
+   "origine": "archive",
+   "ed": 35
+  },
+  {
+   "date": "2026-07-21",
+   "fact": "Le contrat à vie de David Beckham avec Adidas, signé en 2003, est estimé à plus de 160 M$.",
+   "source": "Revenue Game #36",
+   "url": "https://www.linkedin.com/pulse/david-beckham-le-vrai-grand-gagnant-de-cette-coupe-du-antonin-cotte-hddfe",
+   "used": false,
+   "origine": "archive",
+   "ed": 36
+  },
+  {
+   "date": "2026-07-21",
+   "fact": "Les partenariats de David Beckham liés au Mondial 2026 pourraient rapporter 20 à 40 M$.",
+   "source": "Revenue Game #36",
+   "url": "https://www.linkedin.com/pulse/david-beckham-le-vrai-grand-gagnant-de-cette-coupe-du-antonin-cotte-hddfe",
+   "used": false,
+   "origine": "archive",
+   "ed": 36
+  },
+  {
+   "date": "2026-07-28",
+   "fact": "L'arrivée du Tour 2026 sur les Champs-Élysées a culminé à 8,3 millions de téléspectateurs.",
+   "source": "Revenue Game #37",
+   "url": "https://www.linkedin.com/pulse/seixas-la-r%C3%A9v%C3%A9lation-fran%C3%A7aise-de-cette-ann%C3%A9e-revenue-antonin-cotte-bneee",
+   "used": false,
+   "origine": "archive",
+   "ed": 37
+  },
+  {
+   "date": "2026-07-28",
+   "fact": "Le Tour de France 2026 a cumulé 45,6 millions de téléspectateurs sur France Télévisions.",
+   "source": "Revenue Game #37",
+   "url": "https://www.linkedin.com/pulse/seixas-la-r%C3%A9v%C3%A9lation-fran%C3%A7aise-de-cette-ann%C3%A9e-revenue-antonin-cotte-bneee",
+   "used": false,
+   "origine": "archive",
+   "ed": 37
+  },
+  {
+   "date": "2026-07-28",
+   "fact": "E.Leclerc paierait 8 à 10 M€ par an pour le maillot à pois.",
+   "source": "Revenue Game #37",
+   "url": "https://www.linkedin.com/pulse/seixas-la-r%C3%A9v%C3%A9lation-fran%C3%A7aise-de-cette-ann%C3%A9e-revenue-antonin-cotte-bneee",
+   "used": false,
+   "origine": "archive",
+   "ed": 37
+  },
+  {
+   "date": "2026-07-28",
+   "fact": "La dotation de Decathlon-CMA CGM sur le Tour est passée de 84 880 à 165 530 € en un an.",
+   "source": "Revenue Game #37",
+   "url": "https://www.linkedin.com/pulse/seixas-la-r%C3%A9v%C3%A9lation-fran%C3%A7aise-de-cette-ann%C3%A9e-revenue-antonin-cotte-bneee",
+   "used": false,
+   "origine": "archive",
+   "ed": 37
+  },
+  {
+   "date": "2026-08-04",
+   "fact": "L'équipe de France est équipée par Nike depuis 2011, pour environ 100 M€ par an jusqu'en 2034.",
+   "source": "Revenue Game #38",
+   "url": "https://www.linkedin.com/pulse/zidane-100-millions-en-jeu-450-000-sur-le-contrat-et-une-cotte-k0zoe",
+   "used": false,
+   "origine": "archive",
+   "ed": 38
+  },
+  {
+   "date": "2026-08-04",
+   "fact": "Le Sénat a voté un plafond de 450 000 € bruts par an pour les salaires versés par les fédérations.",
+   "source": "Revenue Game #38",
+   "url": "https://www.linkedin.com/pulse/zidane-100-millions-en-jeu-450-000-sur-le-contrat-et-une-cotte-k0zoe",
+   "used": false,
+   "origine": "archive",
+   "ed": 38
+  },
+  {
+   "date": "2026-08-11",
+   "fact": "Gianni Infantino a tenté de vendre 21 % d'une entité Coupes du monde pour 4,2 Md$.",
+   "source": "Revenue Game #39",
+   "url": "https://www.linkedin.com/pulse/le-roi-du-foot-mondial-vacille-revenue-game-39-antonin-cotte-jkwpe",
+   "used": true,
+   "origine": "archive",
+   "ed": 39
+  },
+  {
+   "date": "2026-08-11",
+   "fact": "Le projet FIFA Forward Enterprise visait 10 Md$ redistribués sur quatre ans aux 211 fédérations.",
+   "source": "Revenue Game #39",
+   "url": "https://www.linkedin.com/pulse/le-roi-du-foot-mondial-vacille-revenue-game-39-antonin-cotte-jkwpe",
+   "used": false,
+   "origine": "archive",
+   "ed": 39
+  },
+  {
+   "date": "2026-08-18",
+   "fact": "Google a engagé un fonds de 750 M$ pour accélérer le déploiement de ses outils d'IA chez ses partenaires.",
+   "source": "Revenue Game #40",
+   "url": "https://www.linkedin.com/pulse/pourquoi-google-investit-autant-en-ce-moment-revenue-game-cotte-xj2fe",
+   "used": false,
+   "origine": "archive",
+   "ed": 40
+  },
+  {
+   "date": "2026-08-25",
+   "fact": "L'Esports World Cup offre 75 M$ de prize pool, record de l'e-sport, contre 45 M$ trois ans plus tôt.",
+   "source": "Revenue Game #41",
+   "url": "https://www.linkedin.com/pulse/lewc-de-la-coupe-du-monde-jeux-vid%C3%A9o-%C3%A0-un-%C3%A9v%C3%A9nement-d%C3%A9tat-cotte-fojqe",
+   "used": true,
+   "origine": "archive",
+   "ed": 41
+  },
+  {
+   "date": "2026-08-25",
+   "fact": "Les retombées de l'Esports World Cup à Paris sont estimées à 600 M€, trois fois le Festival de Cannes.",
+   "source": "Revenue Game #41",
+   "url": "https://www.linkedin.com/pulse/lewc-de-la-coupe-du-monde-jeux-vid%C3%A9o-%C3%A0-un-%C3%A9v%C3%A9nement-d%C3%A9tat-cotte-fojqe",
+   "used": false,
+   "origine": "archive",
+   "ed": 41
+  },
+  {
+   "date": "2026-09-01",
+   "fact": "The IRONMAN Group a racheté 40 % d'UTMB Group.",
+   "source": "Revenue Game #42",
+   "url": "https://www.linkedin.com/pulse/lutmb-un-probl%C3%A8me-que-largent-ne-peut-pas-r%C3%A9soudre-revenue-cotte-j4sje",
+   "used": false,
+   "origine": "archive",
+   "ed": 42
+  },
+  {
+   "date": "2026-09-01",
+   "fact": "La semaine UTMB coûte environ 3 M€ à produire, avec une centaine de salariés.",
+   "source": "Revenue Game #42",
+   "url": "https://www.linkedin.com/pulse/lutmb-un-probl%C3%A8me-que-largent-ne-peut-pas-r%C3%A9soudre-revenue-cotte-j4sje",
+   "used": false,
+   "origine": "archive",
+   "ed": 42
+  },
+  {
+   "date": "2026-09-08",
+   "fact": "L'Europe compte 270 millions de fans de basket mais capte moins de 1 % du marché mondial des droits et du sponsoring.",
+   "source": "Revenue Game #43",
+   "url": "https://www.linkedin.com/pulse/nba-europe-le-psg-sur-point-de-racheter-paris-basketball-cotte-thi8e",
+   "used": false,
+   "origine": "archive",
+   "ed": 43
+  },
+  {
+   "date": "2026-09-08",
+   "fact": "Selon The Sports Consultancy, la NBA Europe pourrait générer 7 Md$ d'activité en France entre 2027 et 2036.",
+   "source": "Revenue Game #43",
+   "url": "https://www.linkedin.com/pulse/nba-europe-le-psg-sur-point-de-racheter-paris-basketball-cotte-thi8e",
+   "used": false,
+   "origine": "archive",
+   "ed": 43
+  },
+  {
+   "date": "2026-09-08",
+   "fact": "L'EuroLeague passera à 24 équipes en 2027-2028, pour une valorisation combinée de plus de 3,2 Md€.",
+   "source": "Revenue Game #43",
+   "url": "https://www.linkedin.com/pulse/nba-europe-le-psg-sur-point-de-racheter-paris-basketball-cotte-thi8e",
+   "used": false,
+   "origine": "archive",
+   "ed": 43
+  },
+  {
+   "date": "2026-09-15",
+   "fact": "Red Bull vend environ 14 milliards de canettes par an.",
+   "source": "Revenue Game #44",
+   "url": "https://www.linkedin.com/pulse/lempire-red-bull-%C3%A0-l%C3%A9preuve-de-son-propre-succ%C3%A8s-revenue-cotte-pgnve",
+   "used": true,
+   "origine": "archive",
+   "ed": 44
+  },
+  {
+   "date": "2026-09-15",
+   "fact": "Red Bull investit environ 3 Md€ par an dans les contenus et événements via Red Bull Media House.",
+   "source": "Revenue Game #44",
+   "url": "https://www.linkedin.com/pulse/lempire-red-bull-%C3%A0-l%C3%A9preuve-de-son-propre-succ%C3%A8s-revenue-cotte-pgnve",
+   "used": false,
+   "origine": "archive",
+   "ed": 44
+  },
+  {
+   "date": "2026-09-22",
+   "fact": "Les 3 % de On acquis par Roger Federer valent 330 M$, une valorisation multipliée par 6,6 en deux ans.",
+   "source": "Revenue Game #45",
+   "url": "https://www.linkedin.com/pulse/mbapp%C3%A9-federer-henry-qui-est-le-grand-gagnant-revenue-antonin-cotte-4fcde",
+   "used": true,
+   "origine": "archive",
+   "ed": 45
+  },
+  {
+   "date": "2026-09-29",
+   "fact": "En 2012, Manchester City a décroché son premier titre de champion d'Angleterre depuis 44 ans, dans les toutes dernières secondes de la saison.",
+   "source": "Revenue Game #46",
+   "url": "https://www.linkedin.com/pulse/manchester-city-une-situation-critique-pour-la-premier-antonin-cotte-ochwe",
+   "used": false,
+   "origine": "archive",
+   "ed": 46
+  },
+  {
+   "date": "2026-10-06",
+   "fact": "Bahreïn a transporté son Grand Prix de F1 en Malaisie avec 561 commissaires de piste, son trophée et même un fauconnier.",
+   "source": "Revenue Game #47",
+   "url": "https://www.linkedin.com/pulse/bahre%C3%AFn-en-malaisie-la-naissance-du-grand-prix-portable-antonin-cotte-vpfpe",
+   "used": true,
+   "origine": "archive",
+   "ed": 47
+  },
+  {
+   "date": "2026-10-06",
+   "fact": "Les organisateurs du Grand Prix délocalisé visaient 50 000 à 75 000 billets sur trois jours.",
+   "source": "Revenue Game #47",
+   "url": "https://www.linkedin.com/pulse/bahre%C3%AFn-en-malaisie-la-naissance-du-grand-prix-portable-antonin-cotte-vpfpe",
+   "used": false,
+   "origine": "archive",
+   "ed": 47
+  },
+  {
+   "date": "2026-10-13",
+   "fact": "La famille Pinault a cédé ses 29 % de Puma à Anta pour 1,5 Md€.",
+   "source": "Revenue Game #48",
+   "url": "https://www.linkedin.com/pulse/puma-le-pari-chinois-danta-revenue-game-48-antonin-cotte-igwme",
+   "used": false,
+   "origine": "archive",
+   "ed": 48
+  },
+  {
+   "date": "2026-10-13",
+   "fact": "Le chiffre d'affaires de Puma a reculé de 9,4 % au deuxième trimestre 2026, à 1,69 Md€.",
+   "source": "Revenue Game #48",
+   "url": "https://www.linkedin.com/pulse/puma-le-pari-chinois-danta-revenue-game-48-antonin-cotte-igwme",
+   "used": false,
+   "origine": "archive",
+   "ed": 48
+  },
+  {
+   "date": "2026-10-27",
+   "fact": "La NFL revendique 12 millions de Français intéressés, mais seulement 1,5 million de fans avides.",
+   "source": "Revenue Game #50",
+   "url": "https://www.linkedin.com/pulse/jai-test%C3%A9-la-nfl-%C3%A0-paris-%C3%A9v%C3%A9nement-r%C3%A9ussi-business-confirmer-cotte-w1zse",
+   "used": false,
+   "origine": "archive",
+   "ed": 50
+  },
+  {
+   "date": "2026-10-27",
+   "fact": "La NFL détient environ 3 % du capital de Fanatics depuis 2017.",
+   "source": "Revenue Game #50",
+   "url": "https://www.linkedin.com/pulse/jai-test%C3%A9-la-nfl-%C3%A0-paris-%C3%A9v%C3%A9nement-r%C3%A9ussi-business-confirmer-cotte-w1zse",
+   "used": false,
+   "origine": "archive",
+   "ed": 50
+  },
+  {
+   "date": "2026-10-27",
+   "fact": "La NFL a réalisé environ 13 Md$ de chiffre d'affaires en 2023-2024.",
+   "source": "Revenue Game #50",
+   "url": "https://www.linkedin.com/pulse/jai-test%C3%A9-la-nfl-%C3%A0-paris-%C3%A9v%C3%A9nement-r%C3%A9ussi-business-confirmer-cotte-w1zse",
+   "used": false,
+   "origine": "archive",
+   "ed": 50
+  },
+  {
+   "date": "2026-11-03",
+   "fact": "Le Hill Dickinson Stadium d'Everton a coûté environ 800 M£ et affiche 52 121 spectateurs de moyenne.",
+   "source": "Revenue Game #51",
+   "url": "https://www.linkedin.com/pulse/milan-peut-il-gagner-la-course-au-stade-le-plus-rentable-cotte-iq5we",
+   "used": false,
+   "origine": "archive",
+   "ed": 51
+  },
+  {
+   "date": "2026-11-03",
+   "fact": "Le Real Madrid a tiré environ 233 M€ de ses jours de match au Bernabéu en 2024-25, selon Deloitte.",
+   "source": "Revenue Game #51",
+   "url": "https://www.linkedin.com/pulse/milan-peut-il-gagner-la-course-au-stade-le-plus-rentable-cotte-iq5we",
+   "used": false,
+   "origine": "archive",
+   "ed": 51
+  },
+  {
+   "date": "2026-11-10",
+   "fact": "La MLB fixe un plafond salarial à 258,2 M$ par club, avec un plancher de 180,2 M$.",
+   "source": "Revenue Game #52",
+   "url": "https://www.linkedin.com/pulse/quand-les-propri%C3%A9taires-font-gr%C3%A8ve-qui-paie-laddition-antonin-cotte-d9g5e",
+   "used": false,
+   "origine": "archive",
+   "ed": 52
+  },
+  {
+   "date": "2026-11-10",
+   "fact": "Les propriétaires MLB ont mis de côté 75 M$ par club, soit 2,25 Md$, pour tenir un lock-out.",
+   "source": "Revenue Game #52",
+   "url": "https://www.linkedin.com/pulse/quand-les-propri%C3%A9taires-font-gr%C3%A8ve-qui-paie-laddition-antonin-cotte-d9g5e",
+   "used": false,
+   "origine": "archive",
+   "ed": 52
+  },
+  {
+   "date": "2026-11-10",
+   "fact": "Le syndicat des joueurs MLB dispose d'environ 519 M$.",
+   "source": "Revenue Game #52",
+   "url": "https://www.linkedin.com/pulse/quand-les-propri%C3%A9taires-font-gr%C3%A8ve-qui-paie-laddition-antonin-cotte-d9g5e",
+   "used": false,
+   "origine": "archive",
+   "ed": 52
+  }
+ ]
+}

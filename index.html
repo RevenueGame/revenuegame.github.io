@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/png;base64,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">
+<title>Revenue Game · Vrai ou Bullshit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f3efe6; --paper2:#ebe5d8; --card:#fbf9f4; --ink:#131210; --ink2:#3d3a34; --mute:#7a746a; --line:#d9d1c1;
+  --red:#e3342b; --green:#17955a; --yellow:#f2c94c;
+  --display:'Anton',Impact,sans-serif; --serif:'Instrument Serif',Georgia,serif; --body:'Inter Tight',system-ui,sans-serif; --mono:'JetBrains Mono',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);-webkit-font-smoothing:antialiased;min-height:100vh}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.35;background-image:radial-gradient(rgba(0,0,0,.06) 1px,transparent 1px);background-size:4px 4px;z-index:0}
+a{color:inherit}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.shell{position:relative;z-index:1}
+
+@keyframes tick{to{transform:translateX(-100%)}}
+
+/* NAV */
+nav{max-width:1120px;margin:0 auto;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;border-bottom:2px solid var(--ink)}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand .logo{width:42px;height:42px;display:block}
+.brand .mark{width:38px;height:38px;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-family:var(--display);font-size:18px;letter-spacing:.02em;position:relative}
+.brand .mark::after{content:"↗";position:absolute;right:-6px;top:-8px;font-family:var(--body);font-weight:800;font-size:15px;color:var(--red)}
+.brand .nm{font-family:var(--display);font-size:24px;letter-spacing:.03em;text-transform:uppercase}
+.links{display:flex;gap:4px;flex-wrap:wrap}
+.links a{text-decoration:none;font-weight:600;font-size:14px;padding:8px 12px;border-radius:999px}
+.links a.on{background:var(--ink);color:var(--paper)}
+.links a:not(.on):hover{background:var(--paper2)}
+main{max-width:1120px;margin:0 auto;padding:28px 20px 70px}
+
+/* HERO */
+.hero{display:grid;grid-template-columns:1fr 1.05fr;gap:40px;align-items:start}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--red);font-weight:700}
+.h1{font-family:var(--display);font-size:clamp(62px,9vw,118px);line-height:.86;text-transform:uppercase;margin:12px 0 0;letter-spacing:.005em}
+.h1 .bs{color:var(--red);display:inline-block;transform:rotate(-3deg)}
+.h1 i{font-family:var(--serif);font-style:italic;text-transform:none;font-size:.62em;color:var(--ink2);letter-spacing:0}
+.kick{font-family:var(--serif);font-style:italic;font-size:clamp(26px,3vw,34px);color:var(--ink2);margin-top:14px;line-height:1.1}
+.lead{font-size:18px;line-height:1.55;color:var(--ink2);margin:18px 0 22px;max-width:470px}
+.meta{display:flex;gap:10px;flex-wrap:wrap}
+.pill{font-family:var(--mono);font-size:12px;border:1.5px solid var(--ink);padding:6px 10px;border-radius:999px;font-weight:700}
+.pill.red{background:var(--red);border-color:var(--red);color:#fff}
+.sub{margin-top:26px;padding:18px;border:2px solid var(--ink);background:var(--card);box-shadow:6px 6px 0 var(--ink)}
+.sub h3{font-family:var(--display);font-size:24px;text-transform:uppercase;letter-spacing:.02em}
+.sub p{color:var(--ink2);font-size:14.5px;line-height:1.5;margin:6px 0 12px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--paper);font-weight:800;font-size:14px;letter-spacing:.03em;text-transform:uppercase;padding:13px 18px;text-decoration:none;border:2px solid var(--ink);transition:transform .12s,box-shadow .12s}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--red)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.red{background:var(--red);border-color:var(--red);color:#fff}
+
+/* GAME */
+.game{background:var(--card);border:2px solid var(--ink);box-shadow:10px 10px 0 var(--ink);padding:20px;position:relative;min-height:520px}
+.ghead{display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:12px;font-weight:700;margin-bottom:12px}
+.prog{display:flex;gap:4px;margin-bottom:16px}
+.prog i{flex:1;height:6px;background:var(--paper2)}
+.prog i.g{background:var(--green)}.prog i.r{background:var(--red)}.prog i.c{background:var(--ink)}
+.prog i.boss{outline:1.5px dashed var(--red);outline-offset:1px}
+.qcard{position:relative;border:2px solid var(--ink);background:#fff;padding:26px 22px 30px;min-height:210px;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.qcard .num{font-family:var(--mono);font-size:12px;color:var(--mute);margin-bottom:10px;display:flex;gap:8px;align-items:center}
+.qcard .num .tag{background:var(--ink);color:var(--paper);padding:2px 7px;font-weight:700}
+.qcard .num .tag.boss{background:var(--red)}
+.qcard .q{font-size:clamp(20px,2.6vw,26px);font-weight:700;line-height:1.3}
+.bar{position:absolute;left:0;bottom:0;height:5px;background:var(--ink);transition:width .1s linear}
+.stamp{position:absolute;right:16px;bottom:14px;font-family:var(--display);font-size:clamp(40px,6vw,60px);text-transform:uppercase;letter-spacing:.04em;padding:2px 14px;border:5px solid currentColor;border-radius:6px;transform:rotate(-12deg);opacity:.92;animation:stamp .38s cubic-bezier(.2,1.6,.4,1) both;mix-blend-mode:multiply;pointer-events:none}
+.stamp.v{color:var(--green)}.stamp.b{color:var(--red)}
+@keyframes stamp{0%{transform:rotate(-12deg) scale(2.6);opacity:0}100%{transform:rotate(-12deg) scale(1);opacity:.92}}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.choices button{font-family:var(--display);font-size:clamp(26px,3.4vw,34px);text-transform:uppercase;letter-spacing:.04em;padding:16px 8px;border:2px solid var(--ink);transition:transform .1s,box-shadow .1s}
+.choices .cv{background:#e3f4ea;color:var(--green)}
+.choices .cb{background:#fde6e3;color:var(--red)}
+.choices button:hover:not(:disabled){transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--ink)}
+.choices button:disabled{opacity:.3;cursor:default}
+.kbd{text-align:center;font-family:var(--mono);font-size:11px;color:var(--mute);margin-top:8px}
+.reveal{margin-top:14px;border-left:5px solid var(--ink);background:var(--paper);padding:14px 16px;animation:up .3s both}
+.reveal .v{font-family:var(--display);font-size:22px;text-transform:uppercase;letter-spacing:.02em}
+.reveal .v.ok{color:var(--green)}.reveal .v.ko{color:var(--red)}
+.reveal p{color:var(--ink2);font-size:15px;line-height:1.5;margin:4px 0 8px}
+.reveal .src{font-family:var(--mono);font-size:11px;color:var(--mute)}
+.reveal .rg{display:inline-block;margin-top:8px;font-weight:700;font-size:13.5px;color:var(--red);text-decoration:none;border-bottom:2px solid var(--red)}
+.reveal .btn{margin-top:12px;width:100%;justify-content:center}
+@keyframes up{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.intro{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;min-height:470px;gap:14px}
+.intro .big{font-family:var(--display);font-size:clamp(44px,5vw,64px);text-transform:uppercase;line-height:.9}
+.intro .big span{color:var(--red)}
+.intro ul{list-style:none;display:grid;gap:8px;margin:4px 0 8px}
+.intro li{font-size:15px;color:var(--ink2);padding-left:22px;position:relative}
+.intro li::before{content:"■";position:absolute;left:0;color:var(--red);font-size:12px;top:2px}
+
+/* END */
+.end{text-align:center;padding:10px 0}
+.end .score{font-family:var(--display);font-size:120px;line-height:.9}
+.end .score small{font-size:44px;color:var(--mute)}
+.end .title{display:inline-block;font-family:var(--display);font-size:32px;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:4px 14px;transform:rotate(-2deg);margin:8px 0}
+.end .d{color:var(--ink2);max-width:420px;margin:10px auto 0;line-height:1.5}
+.grid{font-size:26px;letter-spacing:3px;margin:14px 0 6px}
+@media(max-width:520px){.grid{font-size:19px;letter-spacing:1px}}
+.share{margin-top:16px;text-align:left}
+.share textarea{width:100%;min-height:150px;border:2px solid var(--ink);background:#fff;padding:12px;font:500 14px/1.5 var(--body);resize:vertical;color:var(--ink)}
+.share .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;align-items:center}
+.okmsg{font-size:13px;color:var(--green);font-weight:700}
+
+/* PREVIEW */
+.preview-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:var(--yellow);border:2px solid var(--ink);padding:10px 14px;margin-bottom:22px;font-size:14px}
+.preview-bar b{font-family:var(--mono);letter-spacing:.06em}
+.pvlist{gap:8px;margin:-8px 0 26px;background:var(--card);border:2px dashed var(--ink);padding:14px}
+.pvlist div{font-size:14.5px;line-height:1.45}
+.pvlist small{display:block;color:var(--mute);font-size:12.5px;margin:2px 0 0 52px}
+.pv-v,.pv-b{display:inline-block;width:44px;text-align:center;font-family:var(--mono);font-size:11px;font-weight:700;color:#fff;padding:2px 0;margin-right:8px}
+.pv-v{background:var(--green)}.pv-b{background:var(--red)}
+
+/* SECTIONS */
+.sec{margin-top:70px}
+.sech{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:20px;flex-wrap:wrap}
+.sech h2{font-family:var(--display);font-size:clamp(36px,5vw,54px);text-transform:uppercase;line-height:.95}
+.sech h2 i{font-family:var(--serif);text-transform:none;color:var(--red);font-size:.8em}
+.sech a{font-weight:700;font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.ed{background:var(--card);border:2px solid var(--ink);padding:16px;display:flex;flex-direction:column;gap:8px;text-decoration:none;transition:transform .12s,box-shadow .12s;min-height:170px}
+a.ed:hover{transform:translate(-3px,-3px);box-shadow:6px 6px 0 var(--ink)}
+.ed .n{font-family:var(--display);font-size:42px;line-height:1;color:var(--red)}
+.ed .t{font-weight:800;font-size:17px;line-height:1.3}
+.ed .hk{font-size:13.5px;line-height:1.45;color:var(--ink2);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ed .th{margin-top:auto;font-family:var(--mono);font-size:11px;text-transform:uppercase;color:var(--mute);letter-spacing:.06em}
+.ed .new{align-self:flex-start;background:var(--yellow);font-family:var(--mono);font-size:10.5px;font-weight:700;padding:2px 7px}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.filters button{font-weight:600;font-size:13.5px;border:1.5px solid var(--ink);padding:7px 12px;border-radius:999px}
+.filters button.on{background:var(--ink);color:var(--paper)}
+.note{margin-top:18px;font-size:13.5px;color:var(--mute);border:1.5px dashed var(--line);padding:12px 14px}
+.weeks{display:grid;gap:12px}
+.wk{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center;background:var(--card);border:2px solid var(--ink);padding:16px 18px}
+.wk .n{font-family:var(--display);font-size:40px;line-height:1}
+.wk .t{font-weight:800;font-size:18px}
+.wk .s{font-size:13.5px;color:var(--mute);margin-top:3px}
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:36px;align-items:start}
+.about .badge{border:2px solid var(--ink);background:var(--ink);color:var(--paper);padding:26px;box-shadow:10px 10px 0 var(--red)}
+.about .badge .big{font-family:var(--display);font-size:54px;line-height:.9;text-transform:uppercase}
+.about .badge p{font-family:var(--serif);font-style:italic;font-size:22px;margin-top:12px;color:#d9d3c6}
+.about .txt p{font-size:17px;line-height:1.6;color:var(--ink2);margin-bottom:14px}
+.about .txt b{color:var(--ink)}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+footer{border-top:2px solid var(--ink);max-width:1120px;margin:0 auto;padding:22px 20px 40px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--mute)}
+footer b{color:var(--ink);font-family:var(--display);font-weight:400;font-size:16px;letter-spacing:.03em}
+
+@media (max-width:880px){
+  .hero,.about{grid-template-columns:1fr}
+  .game{box-shadow:6px 6px 0 var(--ink);min-height:auto}
+  .wk{grid-template-columns:auto 1fr}
+  .wk .btn{grid-column:1/-1;justify-content:center}
+  nav{justify-content:center}
+  .hero{gap:0}
+  .left{display:contents}
+  .game{order:1;margin:24px 0 8px}
+  .sub{order:2}
+  .h1{font-size:54px}
+  .kick{display:none}
+  .lead{font-size:16px;margin-top:10px}
+  .meta{margin-top:12px}
+  .intro{min-height:auto;gap:10px}
+  .intro .big{display:none}
+  .intro ul{font-size:14px}
+  .intro li:last-child,.kbd{display:none}
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<nav>
+  <a class="brand" href="#jeu"><img class="logo" src="data:image/png;base64,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" alt="Revenue Game"><span class="nm">Revenue Game</span></a>
+  <div class="links">
+    <a href="#jeu" data-r="jeu">Le jeu</a>
+    <a href="#archives" data-r="archives">Archives</a>
+    <a href="#newsletter" data-r="newsletter">Newsletter</a>
+    <a href="#a-propos" data-r="a-propos">À propos</a>
+  </div>
+</nav>
+<main id="view"></main>
+<footer><span><img src="data:image/png;base64,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" alt="" style="width:18px;height:18px;vertical-align:-3px;margin-right:6px"><b>REVENUE GAME</b> · La newsletter sport business d’Antonin Cotte</span><span>Chaque affirmation du jeu est sourcée. Une erreur ? Dis-le en commentaire sur LinkedIn.</span></footer>
+</div>
+
+<script>
+/* =========================================================
+   CONTENU · bloc JSON entre DATA:START et DATA:END, mis à jour chaque semaine
+   ========================================================= */
+const DATA = /*DATA:START*/{
+ "site": {
+  "subscribeUrl": "https://www.linkedin.com/in/antonin-cotte/",
+  "siteUrl": "https://claude.ai/artifact/J3scmS2UpFzgBQmTBGmgwP",
+  "rules": {
+   "maxFromLatestEdition": 3
+  }
+ },
+ "editions": [
+  {
+   "n": 52,
+   "t": "Quand les propriétaires font grève, qui paie l'addition ?",
+   "theme": "Ligues & droits",
+   "url": "https://www.linkedin.com/pulse/quand-les-propri%C3%A9taires-font-gr%C3%A8ve-qui-paie-laddition-antonin-cotte-d9g5e",
+   "date": "2026-11-10",
+   "hook": "Le 28 octobre 2026, les Milwaukee Brewers battent les Tampa Bay Rays et remportent la première World Series de leur histoire."
+  },
+  {
+   "n": 51,
+   "t": "Milan peut-il gagner la course au stade le plus rentable ?",
+   "theme": "Stades & naming",
+   "url": "https://www.linkedin.com/pulse/milan-peut-il-gagner-la-course-au-stade-le-plus-rentable-cotte-iq5we",
+   "date": "2026-11-03",
+   "hook": "Jeudi 29 octobre, au Castello Sforzesco. À deux jours du derby, l'AC Milan et l’ FC Internazionale Milano présentent ensemble leur futur stade."
+  },
+  {
+   "n": 50,
+   "t": "J’ai testé la NFL à Paris : événement réussi, business à confirmer",
+   "theme": "Ligues & droits",
+   "url": "https://www.linkedin.com/pulse/jai-test%C3%A9-la-nfl-%C3%A0-paris-%C3%A9v%C3%A9nement-r%C3%A9ussi-business-confirmer-cotte-w1zse",
+   "date": "2026-10-27",
+   "hook": "Je n’étais pas au Stade de France dimanche. J’ai regardé à la télévision le premier match de saison régulière de National Football League (NFL) organisé en France."
+  },
+  {
+   "n": 49,
+   "t": "Peut-on acheter des supporters ?",
+   "theme": "Ligues & droits",
+   "url": "https://www.linkedin.com/pulse/peut-on-acheter-des-supporters-revenue-game-49-antonin-cotte-z8xse",
+   "date": "2026-10-20",
+   "hook": "Lorsque LIV Golf a été lancé en 2022, le pari semblait presque irrésistible. Grâce à des moyens financiers considérables, la ligue a recruté certains des meilleurs joueurs du monde, attiré immédiatement l'attention des médias…"
+  },
+  {
+   "n": 48,
+   "t": "Puma : le pari chinois d'Anta",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/puma-le-pari-chinois-danta-revenue-game-48-antonin-cotte-igwme",
+   "date": "2026-10-13",
+   "hook": "Le 27 janvier 2026, les salariés de PUMA Group découvrent une nouvelle que peu d'observateurs avaient réellement anticipée."
+  },
+  {
+   "n": 47,
+   "t": "Bahreïn en Malaisie : la naissance du Grand Prix portable ?",
+   "theme": "Événements",
+   "url": "https://www.linkedin.com/pulse/bahre%C3%AFn-en-malaisie-la-naissance-du-grand-prix-portable-antonin-cotte-vpfpe",
+   "date": "2026-10-06",
+   "hook": "Le calendrier affichait un Grand Prix Formula 1 de Bahreïn. Les images montraient pourtant Sepang, près de Kuala Lumpur."
+  },
+  {
+   "n": 46,
+   "t": "Manchester City : une situation critique pour la Premier League ?",
+   "theme": "Clubs & propriétaires",
+   "url": "https://www.linkedin.com/pulse/manchester-city-une-situation-critique-pour-la-premier-antonin-cotte-ochwe",
+   "date": "2026-09-29",
+   "hook": "Le 13 mai 2012, à l'Etihad Stadium, Manchester City Football Club mène 1-0 à la mi-temps face à Queens Park Rangers."
+  },
+  {
+   "n": 45,
+   "t": "Mbappé, Federer, Henry, On : qui est le grand gagnant ?",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/mbapp%C3%A9-federer-henry-qui-est-le-grand-gagnant-revenue-antonin-cotte-4fcde",
+   "date": "2026-09-22",
+   "hook": "Le 18 septembre 2026, la France du football vit une journée à trois marques. Zinédine Zidane, ambassadeur historique d'adidas, dévoile sa première liste en tant que sélectionneur des Bleus, une équipe habillée par Nike depuis…"
+  },
+  {
+   "n": 44,
+   "t": "L'empire Red Bull, à l'épreuve de son propre succès ?",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/lempire-red-bull-%C3%A0-l%C3%A9preuve-de-son-propre-succ%C3%A8s-revenue-cotte-pgnve",
+   "date": "2026-09-15",
+   "hook": "En 2025, Red Bull a vendu près de 14 milliards de canettes et encaissé un chiffre d'affaires record de 12,2 milliards d'euros, en hausse de 8,6 % sur un an."
+  },
+  {
+   "n": 43,
+   "t": "NBA Europe : le PSG sur le point de racheter le Paris Basketball ?",
+   "theme": "Ligues & droits",
+   "url": "https://www.linkedin.com/pulse/nba-europe-le-psg-sur-point-de-racheter-paris-basketball-cotte-thi8e",
+   "date": "2026-09-08",
+   "hook": "En mars 2026, Reuters confirme la rumeur : Qatar Sports Investments, propriétaire du Paris Saint-Germain, travaille officiellement sur une offre pour la future franchise parisienne de National Basketball Association (NBA) Europe."
+  },
+  {
+   "n": 42,
+   "t": "L'UTMB a un problème que l'argent ne peut pas résoudre",
+   "theme": "Événements",
+   "url": "https://www.linkedin.com/pulse/lutmb-un-probl%C3%A8me-que-largent-ne-peut-pas-r%C3%A9soudre-revenue-cotte-j4sje",
+   "date": "2026-09-01",
+   "hook": "Samedi 29 août 2026, l'Américain Ben Dhiman boucle les 174 kilomètres de l'UTMB en 18 heures 16 minutes, pulvérisant le record de plus d'une heure."
+  },
+  {
+   "n": 41,
+   "t": "L'EWC : de la coupe du monde de jeux vidéo à un événement d'État",
+   "theme": "Événements",
+   "url": "https://www.linkedin.com/pulse/lewc-de-la-coupe-du-monde-jeux-vid%C3%A9o-%C3%A0-un-%C3%A9v%C3%A9nement-d%C3%A9tat-cotte-fojqe",
+   "date": "2026-08-25",
+   "hook": "Le 23 août 2026, une finale de Counter Strike attire dans les tribunes Mohammed ben Salmane, Emmanuel Macron et Cristiano Ronaldo, assis côte à côte."
+  },
+  {
+   "n": 40,
+   "t": "Pourquoi Google investit autant en ce moment ?",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/pourquoi-google-investit-autant-en-ce-moment-revenue-game-cotte-xj2fe",
+   "date": "2026-08-18",
+   "hook": "Arsenal, le FC Barcelone, le Bayern Munich, Liverpool FC et le Paris Saint-Germain viennent de signer, en une seule annonce coordonnée, un partenariat quasi identique avec Google : Gemini comme assistant IA officiel, Pixel…"
+  },
+  {
+   "n": 39,
+   "t": "Le roi du foot mondial vacille...",
+   "theme": "Institutions & fédérations",
+   "url": "https://www.linkedin.com/pulse/le-roi-du-foot-mondial-vacille-revenue-game-39-antonin-cotte-jkwpe",
+   "date": "2026-08-11",
+   "hook": "Il y a deux semaines à peine, rien ne semblait pouvoir menacer Gianni Infantino. Réélu deux fois par acclamation, sans le moindre vote, en 2019 et en 2023, le président de la FIFA se dirigeait vers un troisième mandat presque…"
+  },
+  {
+   "n": 38,
+   "t": "Zidane : 100 millions en jeu, 450 000 sur le contrat, et une nouvelle vitrine pour les Bleus",
+   "theme": "Institutions & fédérations",
+   "url": "https://www.linkedin.com/pulse/zidane-100-millions-en-jeu-450-000-sur-le-contrat-et-une-cotte-k0zoe",
+   "date": "2026-08-04",
+   "hook": "Quand Zinédine Zidane apparaît au siège de la Fédération française de football, le 28 juillet 2026, l’atmosphère ne ressemble pas à celle d’une simple nomination."
+  },
+  {
+   "n": 37,
+   "t": "Seixas : la révélation française de cette année ?",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/seixas-la-r%C3%A9v%C3%A9lation-fran%C3%A7aise-de-cette-ann%C3%A9e-revenue-antonin-cotte-bneee",
+   "date": "2026-07-28",
+   "hook": "Dimanche soir, sur le plateau de France 2, Julien Benedetto interroge Paul Seixas, 19 ans, qui vient de terminer 4e de son tout premier Tour de France."
+  },
+  {
+   "n": 36,
+   "t": "David Beckham : le vrai grand gagnant de cette Coupe du monde ?",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/david-beckham-le-vrai-grand-gagnant-de-cette-coupe-du-antonin-cotte-hddfe",
+   "date": "2026-07-21",
+   "hook": "Sur le terrain, cette Coupe du monde appartient à Mbappé, Bellingham, Yamal et Messi. En dehors du terrain, un nom domine tous les écrans : David Beckham."
+  },
+  {
+   "n": 35,
+   "t": "Fédération française de football : une troisième étoile, ou la faillite ?",
+   "theme": "Institutions & fédérations",
+   "url": "https://www.linkedin.com/pulse/f%C3%A9d%C3%A9ration-fran%C3%A7aise-de-football-une-troisi%C3%A8me-%C3%A9toile-antonin-cotte-1j2ye",
+   "date": "2026-07-14",
+   "hook": "Ce soir, 21h, au AT&T Stadium de Dallas, la France affronte l'Espagne en demi-finale de Coupe du monde."
+  },
+  {
+   "n": 34,
+   "t": "Tour de France : une aubaine pour les marques ?",
+   "theme": "Événements",
+   "url": "https://www.linkedin.com/pulse/tour-de-france-35-millions-deuros-le-ticket-dentr%C3%A9e-18-antonin-cotte-zsyqe",
+   "date": "2026-07-07",
+   "hook": "Le 4 juillet 2026, à Barcelone, 170 véhicules se sont élancés sur les routes du Tour de France. Deux heures avant chaque étape, sans exception depuis 1930."
+  },
+  {
+   "n": 33,
+   "t": "Le Parc des Princes : 38 millions offerts, 200 millions demandés. Qui va céder ?",
+   "theme": "Stades & naming",
+   "url": "https://www.linkedin.com/pulse/le-parc-des-princes-38-millions-offerts-200-demand%C3%A9s-qui-cotte-ooqge",
+   "date": "2026-06-30",
+   "hook": "Le 25 juin 2026, un premier comité de pilotage s'est tenu à l'Hôtel de Ville de Paris. Autour de la table : le PSG, la Ville de Paris, la Mairie du 16e, la Préfecture d'Île-de-France, la Région, la Métropole du Grand Paris."
+  },
+  {
+   "n": 32,
+   "t": "Wembanyama : construire la prochaine icône mondiale du sport",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/wembanyama-construire-la-prochaine-ic%C3%B4ne-mondiale-du-sport-cotte-al0pc",
+   "date": "2026-06-23",
+   "hook": "Il y a trois ans, Victor Wembanyama gagnait 20 000 euros par mois aux Metropolitans 92 de Boulogne-Levallois. Il refusait des contrats de sponsoring à plusieurs millions de dollars de marques de sodas et de cosmétiques."
+  },
+  {
+   "n": 31,
+   "t": "UFC à la Maison-Blanche : quand le sport business rencontre le pouvoir",
+   "theme": "Événements",
+   "url": "https://www.linkedin.com/pulse/ufc-%C3%A0-la-maison-blanche-quand-le-sport-business-rencontre-cotte-fwuwc",
+   "date": "2026-06-16",
+   "hook": "Dimanche 14 juin 2026, la pelouse sud de la Maison-Blanche s'est transformée en arène. Une arche métallique de 28 mètres de hauteur, surnommée \"The Claw\", plus haute que la résidence présidentielle elle-même."
+  },
+  {
+   "n": 30,
+   "t": "Pourquoi certaines villes ont refusé d’accueillir la Coupe du Monde ?",
+   "theme": "Événements",
+   "url": "https://www.linkedin.com/pulse/pourquoi-certaines-villes-ont-refus%C3%A9-daccueillir-la-coupe-cotte-xtgzc",
+   "date": "2026-06-09",
+   "hook": "La Coupe du Monde 2026 commence le 11 juin. 48 équipes, 104 matchs, 16 villes hôtes sur trois pays. L'événement sportif le plus regardé de la planète et, cette année, le plus lucratif de l'histoire."
+  },
+  {
+   "n": 29,
+   "t": "Pourquoi SailGP est devenu l'un des actifs les plus prometteurs du sport mondial",
+   "theme": "Ligues & droits",
+   "url": "https://www.linkedin.com/pulse/pourquoi-sailgp-est-devenu-lun-des-actifs-les-plus-du-antonin-cotte-gh4vc",
+   "date": "2026-06-02",
+   "hook": "Comment transformer la voile, discipline longtemps associée à une pratique confidentielle et difficilement lisible pour le grand public, en un produit de divertissement mondial capable d'attirer des investisseurs…"
+  },
+  {
+   "n": 28,
+   "t": "Panini, Fanatics, Club Legacyz : la bataille pour l'âme du collectible sportif",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/panini-fanatics-club-legacyz-la-bataille-pour-l%C3%A2me-du-antonin-cotte-qggmc",
+   "date": "2026-05-12",
+   "hook": "Pendant soixante ans, l'album Panini a été le premier objet de collection de millions d'enfants. Une pochette à 50 centimes, la fébrilité de l'ouverture, la chasse au sticker manquant dans la cour de récré."
+  },
+  {
+   "n": 27,
+   "t": "Decathlon : la marche vers le haut",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/decathlon-la-marche-vers-le-haut-revenue-game-27-antonin-cotte-x9uoc",
+   "date": "2026-05-05",
+   "hook": "Decathlon a construit son empire sur une promesse simple : rendre le sport accessible à tous. Des produits corrects, à des prix imbattables, dans des hangars géants en périphérie de ville."
+  },
+  {
+   "n": 26,
+   "t": "Paris sportifs et basket : le marché qui se retourne contre lui-même",
+   "theme": "Ligues & droits",
+   "url": "https://www.linkedin.com/pulse/paris-sportifs-et-basket-le-march%C3%A9-qui-se-retourne-contre-cotte-jhlbc",
+   "date": "2026-04-28",
+   "hook": "Il y a sept ans, la NBA était la ligue la plus enthousiaste à l'idée de légaliser les paris sportifs. Son commissaire Adam Silver en était le principal avocat."
+  },
+  {
+   "n": 25,
+   "t": "Nike vs Adidas : la guerre des équipementiers",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/nike-vs-adidas-la-guerre-des-%C3%A9quipementiers-revenue-antonin-cotte-1bzfc",
+   "date": "2026-04-21",
+   "hook": "La Coupe du monde 2026 commence le 11 juin aux États-Unis. Mais la guerre entre Nike et Adidas, elle, a déjà commencé."
+  },
+  {
+   "n": 24,
+   "t": "Olympique Lyonnais : anatomie d'un effondrement financier",
+   "theme": "Clubs & propriétaires",
+   "url": "https://www.linkedin.com/pulse/olympique-lyonnais-anatomie-dun-effondrement-financier-antonin-cotte-fpvoc",
+   "date": "2026-04-14",
+   "hook": "Le déficit de 208,6 millions d'euros publié par la DNCG pour la saison 2024-25 n'était pas un épilogue. C'était un avertissement que beaucoup ont lu comme un accident conjoncturel."
+  },
+  {
+   "n": 23,
+   "t": "Ce que l'étude Sports Moments de Teads dit sur l'attention, le funnel et les marques",
+   "theme": "Médias & audiences",
+   "url": "https://www.linkedin.com/pulse/ce-que-l%C3%A9tude-sports-moments-de-teads-dit-sur-lattention-cotte-ozn4c",
+   "date": "2026-04-07",
+   "hook": "Une étude publiée récemment par Teads, menée auprès de 9 000 fans de sport à l'échelle internationale, propose une lecture ambitieuse de l'évolution du sport dans l'écosystème média."
+  },
+  {
+   "n": 22,
+   "t": "Méga-events : ce que Paris 2024 nous apprend vraiment avant la Coupe du Monde 2026",
+   "theme": "Événements",
+   "url": "https://www.linkedin.com/pulse/m%C3%A9ga-events-ce-que-paris-2024-nous-apprend-vraiment-avant-cotte-ivu8c",
+   "date": "2026-03-31",
+   "hook": "À quelques mois de la Coupe du Monde 2026 aux États-Unis, Canada et Mexique, une phase décisive est en train de se jouer, loin des projecteurs."
+  },
+  {
+   "n": 21,
+   "t": "Sponsoring sportif en France : un marché en croissance… mais encore inefficace",
+   "theme": "Médias & audiences",
+   "url": "https://www.linkedin.com/pulse/sponsoring-sportif-en-france-un-march%C3%A9-croissance-mais-antonin-cotte-tbcvc",
+   "date": "2026-03-24",
+   "hook": "Le sponsoring sportif a longtemps été perçu comme un levier marketing parmi tant d’autres. Un outil de visibilité."
+  },
+  {
+   "n": 20,
+   "t": "Le Crunch : comment un match de rugby devient un actif médiatique",
+   "theme": "Médias & audiences",
+   "url": "https://www.linkedin.com/pulse/le-crunch-comment-un-match-de-rugby-devient-actif-m%C3%A9diatique-cotte-wx9pc",
+   "date": "2026-03-17",
+   "hook": "Dans un paysage audiovisuel marqué par la fragmentation des audiences, les événements capables de rassembler massivement en direct deviennent de plus en plus rares."
+  },
+  {
+   "n": 19,
+   "t": "Open vs Closed Leagues : le dilemme structurel du sport européen",
+   "theme": "Ligues & droits",
+   "url": "https://www.linkedin.com/pulse/open-vs-closed-leagues-le-dilemme-structurel-du-sport-antonin-cotte-vquwc",
+   "date": "2026-03-10",
+   "hook": "La structure d’une ligue sportive n’est jamais neutre."
+  },
+  {
+   "n": 18,
+   "t": "Les équipementiers et la transformation du modèle “signature athlete”",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/les-%C3%A9quipementiers-et-la-transformation-du-mod%C3%A8le-signature-cotte-say8c",
+   "date": "2026-03-03",
+   "hook": "Les contrats athlètes représentent l’un des postes d’investissement les plus stratégiques pour un équipementier sportif."
+  },
+  {
+   "n": 17,
+   "t": "Multi-club ownership: promesse, fissures et dilemme",
+   "theme": "Clubs & propriétaires",
+   "url": "https://www.linkedin.com/pulse/multi-club-ownership-promesse-fissures-et-dilemme-revenue-cotte-hzlwc",
+   "date": "2026-02-26",
+   "hook": "Acheter un club de football est déjà une aventure périlleuse. Les revenus dépendent de la billetterie, des droits TV, des sponsors, et les résultats sportifs dictent la valeur de l’actif."
+  },
+  {
+   "n": 16,
+   "t": "Milan-Cortina 2026",
+   "theme": "Événements",
+   "url": "https://www.linkedin.com/pulse/milan-cortina-2026-revenue-game-16-antonin-cotte-knj7c",
+   "date": "2026-02-17",
+   "hook": "Les Jeux Olympiques d’hiver reviennent en Europe pour la première fois depuis Sochi 2014, mais leur retour sur le continent ne constitue pas seulement un symbole géographique : il représente un moment d’évaluation stratégique…"
+  },
+  {
+   "n": 15,
+   "t": "Bad Bunny x Super Bowl LX: le show à l'américaine par excellence",
+   "theme": "Événements",
+   "url": "https://www.linkedin.com/pulse/bad-bunny-x-super-bowl-lx-le-show-%C3%A0-lam%C3%A9ricaine-par-excellence-cotte-zitjc",
+   "date": "2026-02-10",
+   "hook": "Chaque année, le Super Bowl commence par un coup de sifflet… mais il ne s’arrête jamais là. Ce que la NFL met en scène, ce n’est pas seulement un match entre deux équipes."
+  },
+  {
+   "n": 14,
+   "t": "Quand une célébration devient une stratégie de marque",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/quand-une-c%C3%A9l%C3%A9bration-devient-strat%C3%A9gie-de-marque-revenue-cotte-sr3de",
+   "date": "2026-02-03",
+   "hook": "Certaines célébrations dépassent le sport."
+  },
+  {
+   "n": 13,
+   "t": "Michele Kang : le football féminin comme prochain actif global",
+   "theme": "Clubs & propriétaires",
+   "url": "https://www.linkedin.com/pulse/michele-kang-le-football-f%C3%A9minin-comme-prochain-actif-antonin-cotte-3vxec",
+   "date": "2026-01-27",
+   "hook": "Le football féminin n’est pas en train de rattraper le football masculin."
+  },
+  {
+   "n": 12,
+   "t": "Et si l’Open d’Australie était un exemple parfait pour la FFT ?",
+   "theme": "Événements",
+   "url": "https://www.linkedin.com/pulse/et-si-lopen-daustralie-%C3%A9tait-un-exemple-parfait-pour-la-antonin-cotte-qzqze",
+   "date": "2026-01-20",
+   "hook": "En France, le tennis s’efface. Selon un sondage Odoxa publié le 18 janvier, moins de quatre Français sur dix (36 %) déclarent s’intéresser à ce sport, soit le niveau le plus bas depuis dix ans."
+  },
+  {
+   "n": 11,
+   "t": "Luke Littler, ou la métamorphose silencieuse des fléchettes",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/luke-littler-ou-la-m%C3%A9tamorphose-silencieuse-des-fl%C3%A9chettes-cotte-erhbe",
+   "date": "2026-01-13",
+   "hook": "Il existe des sports qui avancent longtemps dans l’ombre, presque imperceptibles, jusqu’au moment où un événement vient révéler qu’ils ont changé de nature…"
+  },
+  {
+   "n": 10,
+   "t": "Et si le tennis n’était plus le produit phare de la FFT ?",
+   "theme": "Institutions & fédérations",
+   "url": "https://www.linkedin.com/pulse/et-si-le-tennis-n%C3%A9tait-plus-produit-phare-de-la-fft-antonin-cotte-0czce",
+   "date": "2026-01-06",
+   "hook": "Il y a des décisions qui ne font pas la une, mais qui, lorsqu’on les observe avec un peu de recul, disent beaucoup plus que ce qu’elles annoncent."
+  },
+  {
+   "n": 9,
+   "t": "Et si les clubs français reprenaient le contrôle de leurs stades ?",
+   "theme": "Stades & naming",
+   "url": "https://www.linkedin.com/pulse/et-si-les-clubs-fran%C3%A7ais-reprenaient-le-contr%C3%B4le-de-leurs-cotte-meame",
+   "date": "2025-12-30",
+   "hook": "Pendant longtemps, on a considéré que le modèle français des stades municipaux était un acquis. Un héritage presque culturel où les collectivités construisent, les clubs occupent, et tout le monde s’en contente…"
+  },
+  {
+   "n": 8,
+   "t": "Et si la France abandonnait ses JO 2030 ?",
+   "theme": "Événements",
+   "url": "https://www.linkedin.com/pulse/et-si-la-france-abandonnait-ses-jo-2030-revenue-game-antonin-cotte-rante",
+   "date": "2025-12-23",
+   "hook": "En France, on a longtemps pensé que l’attribution des Jeux d’hiver 2030 aux Alpes françaises avait clos le débat."
+  },
+  {
+   "n": 7,
+   "t": "Paramount vs Netflix: le choc des titans qui dépasse Hollywood",
+   "theme": "Médias & audiences",
+   "url": "https://www.linkedin.com/pulse/paramount-vs-netflix-le-choc-des-titans-qui-d%C3%A9passe-hollywood-cotte-7t8re",
+   "date": "2025-12-16",
+   "hook": "Paramount vient de déclencher ce que beaucoup voyaient comme impossible : une offre publique d'acquisition (OPA) hostile sur Warner Bros Discovery (WBD), à 30 dollars par action, valorisation totale à 108,4 milliards de dollars."
+  },
+  {
+   "n": 6,
+   "t": "NBA: le maillot, un actif média à part entière",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/nba-le-maillot-un-actif-m%C3%A9dia-%C3%A0-part-enti%C3%A8re-revenue-antonin-cotte-v5mpe",
+   "date": "2025-12-09",
+   "hook": "En 2025, la National Basketball Association (NBA) dépasse le milliard de dollars de revenus annuels en partenariats et licences, tandis que le marché des patchs sponsors sur les maillots frôle les 300 millions."
+  },
+  {
+   "n": 5,
+   "t": "Real Madrid x LVMH: quand le football devient actif de luxe",
+   "theme": "Clubs & propriétaires",
+   "url": "https://www.linkedin.com/pulse/real-madrid-x-lvmh-quand-le-football-devient-actif-de-antonin-cotte-a7afe",
+   "date": "2025-12-02",
+   "hook": "Le Real Madrid, bastion historique des socios et symbole d’indépendance dans le football européen, s’apprête à franchir un seuil inédit : ouvrir une part minoritaire de son capital économique via une filiale dédiée."
+  },
+  {
+   "n": 4,
+   "t": "Quand les États-Unis s’attaquent à l’Europe",
+   "theme": "Ligues & droits",
+   "url": "https://www.linkedin.com/pulse/quand-les-%C3%A9tats-unis-sattaquent-%C3%A0-leurope-revenue-game-cotte-dh6oe",
+   "date": "2025-11-25",
+   "hook": "Depuis des décennies, le modèle du sport « à l’américaine » semblait inébranlable. NFL, NBA, UFC, MLB, NHL : des ligues pensées pour un marché domestique géant, bâties sur la culture du show, la monétisation massive de…"
+  },
+  {
+   "n": 3,
+   "t": "La F1 : sport ou plateforme média totale ?",
+   "theme": "Médias & audiences",
+   "url": "https://www.linkedin.com/pulse/la-f1-sport-ou-plateforme-m%C3%A9dia-totale-revenue-game-antonin-cotte-aihoe",
+   "date": "2025-11-18",
+   "hook": "Auparavant, la Formule 1 était un sport technique, réservé à une élite, diffusé le dimanche après-midi à la télévision."
+  },
+  {
+   "n": 2,
+   "t": "FIFA+ powered by DAZN : à l’aube d’un nouveau modèle de diffusion du football ?",
+   "theme": "Médias & audiences",
+   "url": "https://www.linkedin.com/pulse/fifa-powered-dazn-%C3%A0-laube-dun-nouveau-mod%C3%A8le-de-diffusion-cotte-fhcre",
+   "date": "2025-11-11",
+   "hook": "Pendant des décennies, regarder du sport voulait dire allumer sa télé. Aujourd’hui, nous tendons vers un nouveau model: ouvrir une app."
+  },
+  {
+   "n": 1,
+   "t": "Le naming dans le sport : actif stratégique ou miroir aux alouettes ?",
+   "theme": "Stades & naming",
+   "url": "https://www.linkedin.com/pulse/le-naming-dans-sport-actif-strat%C3%A9gique-ou-miroir-aux-alouettes-cotte-lt1ze",
+   "date": "2025-11-04",
+   "hook": "Pour ce premier numéro, on s’intéresse à un levier aussi visible que souvent mal compris : le naming."
+  }
+ ],
+ "weeks": [
+  {
+   "id": "special-1-an",
+   "n": 47,
+   "label": "Spécial 1 an",
+   "dates": "16 au 22 novembre 2026",
+   "special": true,
+   "theme": "Un an de Revenue Game en 20 affirmations",
+   "lead": "Un an, 52 éditions, plus d’1 million d’impressions. Pour fêter ça, 20 affirmations tirées de toute l’année de Revenue Game. Tu as tout lu ? Prouve-le.",
+   "ed": [
+    2,
+    3,
+    6,
+    8,
+    12,
+    13,
+    16,
+    21,
+    22,
+    25,
+    27,
+    28,
+    30,
+    32,
+    34,
+    39,
+    41,
+    44,
+    45,
+    47
+   ],
+   "ticker": [],
+   "items": [
+    {
+     "q": "Pendant Paris 2024, il a fallu produire environ 47 millions de glaçons.",
+     "a": true,
+     "x": "Vrai : 791 tonnes de glace, réparties sur 35 sites de compétition, 44 sites d'entraînement et 4 villages, de Lille à Tahiti.",
+     "s": "Revenue Game #22",
+     "ed": 22
+    },
+    {
+     "q": "F1 : The Movie a été un flop, avec moins de 150 M$ au box-office.",
+     "a": false,
+     "x": "Bullshit : 629 M$ au box-office, le film sportif le plus rentable de l'histoire.",
+     "s": "Revenue Game #3",
+     "ed": 3
+    },
+    {
+     "q": "Les New York Knicks touchent environ 30 M$ par saison pour le patch sur leur maillot.",
+     "a": true,
+     "x": "Vrai : c'est le deal signé avec Experience Abu Dhabi. Les Clippers, eux, ont signé à 15 M$ avec Visit Rwanda.",
+     "s": "Revenue Game #6",
+     "ed": 6
+    },
+    {
+     "q": "Pendant la Coupe du monde des clubs 2025, la majorité de la consommation s'est faite en direct.",
+     "a": false,
+     "x": "Bullshit : 80 % de la consommation s'est faite sur des contenus non-live (documentaires, formats courts, storytelling).",
+     "s": "Revenue Game #2",
+     "ed": 2
+    },
+    {
+     "q": "À l'Open d'Australie, un joueur éliminé dès le premier tour repart avec 150 000 $.",
+     "a": true,
+     "x": "Vrai : et les vainqueurs empochent 4,15 M$ chacun, sur 111,5 M$ australiens de dotation totale.",
+     "s": "Revenue Game #12",
+     "ed": 12
+    },
+    {
+     "q": "Decathlon réalise plus de la moitié de son chiffre d'affaires en France.",
+     "a": false,
+     "x": "Bullshit : la France pèse 4,98 Md€ en 2025, soit 24 % de l'activité mondiale du groupe.",
+     "s": "Revenue Game #27",
+     "ed": 27
+    },
+    {
+     "q": "L'Esports World Cup offre une cagnotte de 75 M$, la plus élevée de l'histoire de l'e-sport.",
+     "a": true,
+     "x": "Vrai : plus de 2 000 joueurs venus de plus de 100 pays. Le prize pool est passé de 45 à 75 M$ en trois ans.",
+     "s": "Revenue Game #41",
+     "ed": 41
+    },
+    {
+     "q": "Pour arracher la sélection allemande à Adidas, Nike a proposé à peu près le même montant.",
+     "a": false,
+     "x": "Bullshit : environ 100 M€ par an, le double de ce que versait Adidas, après soixante-dix ans de partenariat.",
+     "s": "Revenue Game #25",
+     "ed": 25
+    },
+    {
+     "q": "LCL paierait 7 à 10 M€ par an pour le maillot jaune, pour un rendu média estimé à 140 M€.",
+     "a": true,
+     "x": "Vrai : un rendu calculé sur le temps d'exposition à l'écran dans 190 pays.",
+     "s": "Revenue Game #34",
+     "ed": 34
+    },
+    {
+     "q": "Depuis 2010, les Jeux d'hiver dégagent en moyenne un bénéfice pour la ville hôte.",
+     "a": false,
+     "x": "Bullshit : déficit moyen de 4,7 Md$ par édition, porté par 5,3 Md$ de construction en moyenne.",
+     "s": "Revenue Game #8",
+     "ed": 8
+    },
+    {
+     "q": "Les 3 % de On détenus par Roger Federer valent environ 330 M$.",
+     "a": true,
+     "x": "Vrai : une valorisation multipliée par 6,6 en seulement deux ans.",
+     "s": "Revenue Game #45",
+     "ed": 45
+    },
+    {
+     "q": "Les Finales NBA 2026 Spurs-Knicks sont les plus regardées depuis l'ère Michael Jordan.",
+     "a": true,
+     "x": "Vrai : 20,6 millions de téléspectateurs en moyenne, +100 % par rapport à 2025, du jamais vu depuis 1998.",
+     "s": "Revenue Game #32",
+     "ed": 32
+    },
+    {
+     "q": "Le sponsoring sportif pèse moins de 500 M€ par an en France.",
+     "a": false,
+     "x": "Bullshit : 1,78 Md€ en 2025. C'est le troisième levier de communication du pays, derrière le digital et la télévision.",
+     "s": "Revenue Game #21",
+     "ed": 21
+    },
+    {
+     "q": "Red Bull a vendu près de 14 milliards de canettes en 2025.",
+     "a": true,
+     "x": "Vrai : pour un chiffre d'affaires record de 12,2 Md€. Environ 3 Md€ par an repartent dans les contenus et les événements.",
+     "s": "Revenue Game #44",
+     "ed": 44
+    },
+    {
+     "q": "Au Mondial 2026, la FIFA reverse plus de la moitié de ses revenus aux sélections.",
+     "a": false,
+     "x": "Bullshit : environ 8 %. Le prize money record de 871 M$ reste faible face à 10,9 Md$ de revenus projetés.",
+     "s": "Revenue Game #30",
+     "ed": 30
+    },
+    {
+     "q": "Le Washington Spirit, racheté 35 M$ en 2022, était valorisé 130 M$ trois ans plus tard.",
+     "a": true,
+     "x": "Vrai : c'est la logique venture capital de Michele Kang appliquée au football féminin.",
+     "s": "Revenue Game #13",
+     "ed": 13
+    },
+    {
+     "q": "Les revenus du programme TOP du CIO ont atteint un record avant Milan Cortina 2026.",
+     "a": false,
+     "x": "Bullshit : ils ont reculé à 560 M$, leur plus bas niveau depuis 2020, après le départ de plusieurs partenaires majeurs.",
+     "s": "Revenue Game #16",
+     "ed": 16
+    },
+    {
+     "q": "Pour délocaliser son Grand Prix de F1 en Malaisie, Bahreïn a emporté 561 commissaires de piste, son trophée et un fauconnier.",
+     "a": true,
+     "x": "Vrai : et même la rosewater, le barbecue du paddock et du mobilier du circuit.",
+     "s": "Revenue Game #47",
+     "ed": 47
+    },
+    {
+     "q": "Panini anticipait plus de 1,4 Md$ de ventes sur le seul Mondial 2026.",
+     "a": true,
+     "x": "Vrai : 1,48 Md$ attendus, contre 720 M$ de ventes nettes sur le Mondial 2022.",
+     "s": "Revenue Game #28",
+     "ed": 28
+    },
+    {
+     "q": "Gianni Infantino a tenté de vendre 49 % d'une nouvelle entité Coupes du monde pour 4,2 Md$.",
+     "a": false,
+     "x": "Bullshit : il s'agissait de 21 %, dans le projet FIFA Forward Enterprise, resté secret pendant près d'un an.",
+     "s": "Revenue Game #39",
+     "ed": 39,
+     "boss": true
+    }
+   ]
+  },
+  {
+   "id": "semaine-46",
+   "n": 46,
+   "label": "Semaine 46",
+   "dates": "9 au 15 novembre 2026",
+   "theme": "Stades à 650 M€, ligues en grève et clubs à 7 Md$",
+   "ed": [
+    51,
+    52
+   ],
+   "items": [
+    {
+     "q": "La MLB est la seule grande ligue nord-américaine sans salary cap.",
+     "a": true,
+     "ed": 52,
+     "x": "NFL, NBA et NHL ont un plafond salarial. Le baseball n’en a jamais eu : les joueurs s’y opposent depuis des décennies.",
+     "s": "NBC Sports, Associated Press"
+    },
+    {
+     "q": "Depuis la fin des sponsors de paris en face avant, les revenus maillot de la Premier League ont baissé.",
+     "a": false,
+     "x": "Ils ont augmenté de 8 %, à 444 M£ pour 2026-27. Huit clubs ont remplacé 67 M£ de contrats de paris par 75 M£ de nouveaux deals.",
+     "s": "Insider Sport, septembre 2026"
+    },
+    {
+     "q": "Inter et Milan ne joueront pas dans leur nouveau stade avant la saison 2031-32.",
+     "a": true,
+     "ed": 51,
+     "x": "Début des travaux prévu en 2028, emménagement annoncé pour 2031-32. Le San Siro actuel sera démoli ensuite.",
+     "s": "Milano Finanza"
+    },
+    {
+     "q": "Les New York Yankees ont remporté les World Series 2026.",
+     "a": false,
+     "ed": 52,
+     "x": "Ce sont les Milwaukee Brewers, premier titre de leur histoire. Juste avant un hiver sous tension.",
+     "s": "TSN"
+    },
+    {
+     "q": "Jeff Bezos fait partie d’un consortium qui investit dans Liverpool.",
+     "a": true,
+     "x": "Avec Eduardo Saverin, il rejoint un groupe qui rachète environ 30 % du club à Fenway, sur une valorisation de plus de 7 Md$. Un record pour un club de foot.",
+     "s": "Billionaires.Africa, Traders Union"
+    },
+    {
+     "q": "Le dernier lock-out de la MLB, en 2021-22, n’a duré que 9 jours.",
+     "a": false,
+     "ed": 52,
+     "x": "99 jours. L’accord n’a été trouvé que le 10 mars 2022, juste à temps pour sauver une saison à 162 matchs.",
+     "s": "Associated Press"
+    },
+    {
+     "q": "Les Los Angeles Lakers ont été vendus 12,5 Md$ en 2026, un record pour une équipe.",
+     "a": true,
+     "x": "Deuxième vente des Lakers en deux ans. Cette transaction a propulsé 2026 au rang d’année record pour les rachats d’équipes.",
+     "s": "S&P Global Market Intelligence"
+    },
+    {
+     "q": "Inter et Milan ont racheté San Siro et ses terrains pour plus d’1 milliard d’euros.",
+     "a": false,
+     "ed": 51,
+     "x": "197 M€, payés à la ville de Milan en novembre 2025. Le vrai pactole viendra du naming et du nouveau quartier.",
+     "s": "Insider Sport"
+    },
+    {
+     "q": "Generali paiera 650 M€ pour donner son nom au futur stade de Milan.",
+     "a": true,
+     "ed": 51,
+     "x": "650 M€ sur 25 ans, soit environ 26 M€ par an. Generali devient aussi assureur officiel des deux clubs.",
+     "s": "Il Sole 24 Ore"
+    },
+    {
+     "q": "Chaque année, le naming du futur stade de Milan rapportera plus du double de celui de la Juventus.",
+     "a": true,
+     "ed": 51,
+     "boss": true,
+     "x": "Environ 26 M€ par an pour le Generali Stadium, contre environ 10 M€ par an pour le naming Allianz de la Juventus, selon la presse italienne.",
+     "s": "Il Sole 24 Ore, Gazzetta dello Sport"
+    }
+   ],
+   "ticker": [
+    "<b>GENERALI STADIUM<\/b> 650 M€ / 25 ans <span class='up'>▲ record<\/span>",
+    "<b>MLB<\/b> CBA expire le 1er déc. <span class='dn'>▼ lock-out<\/span>",
+    "<b>COWBOYS<\/b> 13 Md$ <span class='up'>▲ +29 %<\/span>",
+    "<b>SUPER BOWL<\/b> 30 s = 8 M$",
+    "<b>REAL MADRID<\/b> 1 161 M€ de revenus",
+    "<b>RONALDO<\/b> 275 M$ / an",
+    "<b>VRAI OU BULLSHIT ?<\/b> Nouvelle grille chaque semaine"
+   ]
+  },
+  {
+   "id": "pilote",
+   "n": 0,
+   "label": "Édition pilote",
+   "dates": "Hors-série",
+   "theme": "Les classiques du sport business",
+   "ed": [],
+   "items": [
+    {
+     "q": "Le FC Barcelone a payé pour afficher le logo de l’UNICEF sur son maillot.",
+     "a": true,
+     "x": "À partir de 2006, le Barça affiche l’UNICEF et lui verse 1,5 M€ par an. Un sponsoring à l’envers.",
+     "s": "Fondation FC Barcelone"
+    },
+    {
+     "q": "La NBA autorise jusqu’à 3 sponsors sur chaque maillot.",
+     "a": false,
+     "x": "Un seul : le petit patch sur l’épaule, autorisé depuis 2017.",
+     "s": "NBA"
+    },
+    {
+     "q": "Michael Jordan gagne chaque année plus grâce à Nike que pendant toute sa carrière NBA.",
+     "a": true,
+     "x": "Environ 94 M$ de salaire en 15 saisons. Ses royalties Jordan Brand sont estimées entre 275 et 350 M$ par an.",
+     "s": "Celebrity Net Worth, Investormint"
+    },
+    {
+     "q": "L’équipe la plus valorisée du monde est un club de football.",
+     "a": false,
+     "x": "Ce sont les Dallas Cowboys (NFL), à 13 Md$. Le Real Madrid vaut environ deux fois moins.",
+     "s": "Forbes, décembre 2025"
+    },
+    {
+     "q": "Wimbledon a vendu le naming de son Centre Court.",
+     "a": false,
+     "x": "Aucun sponsor-titre : Wimbledon cultive une image quasi sans publicité, c’est sa marque.",
+     "s": "All England Club"
+    },
+    {
+     "q": "Cristiano Ronaldo a gagné plus du double de Lionel Messi en 2025.",
+     "a": true,
+     "x": "275 M$ contre 135 M$, selon le classement Forbes des athlètes les mieux payés.",
+     "s": "Forbes, mai 2025"
+    },
+    {
+     "q": "Une pub de 30 secondes au Super Bowl 2026 coûtait en moyenne environ 8 M$.",
+     "a": true,
+     "x": "8 M$ en moyenne, et quelques emplacements premium au-delà de 10 M$.",
+     "s": "NBCUniversal, Sports Business Journal"
+    },
+    {
+     "q": "La Bundesliga interdit encore les sponsors sur les manches.",
+     "a": false,
+     "x": "Ils y sont autorisés depuis la saison 2017-18.",
+     "s": "DFL"
+    },
+    {
+     "q": "La Premier League a voté la fin des sponsors de paris en face avant à partir de 2026-27.",
+     "a": true,
+     "x": "Retrait volontaire voté en 2023. Les opérateurs restent possibles sur la manche.",
+     "s": "Premier League"
+    },
+    {
+     "q": "Dans la Deloitte Money League 2026, aucun club anglais n’est dans le top 4.",
+     "a": true,
+     "boss": true,
+     "x": "Real Madrid, Barça, Bayern et PSG devant. Une première en 29 éditions.",
+     "s": "Deloitte, janvier 2026"
+    }
+   ],
+   "ticker": []
+  }
+ ],
+ "draft": {
+  "status": "aucun"
+ }
+}/*DATA:END*/;
+const SITE=DATA.site, EDITIONS=DATA.editions, WEEKS=DATA.weeks, DRAFT=DATA.draft||{};
+
+/* =========================================================
+   MOTEUR
+   ========================================================= */
+const TIME = 12;
+const view = document.getElementById("view");
+const esc = s => String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const edBy = n => EDITIONS.find(e=>e.n===n);
+let G=null, timer=null, edFilter="Toutes", edLimit=12;
+
+
+function route(){
+  clearInterval(timer);
+  const h = (location.hash||"#jeu").slice(1);
+  const wk = WEEKS.find(w=>w.id===h);
+  document.querySelectorAll(".links a").forEach(a=>a.classList.toggle("on", !!(a.dataset.r===h || (h==="" && a.dataset.r==="jeu") || (wk && a.dataset.r==="archives"))));
+  if(h==="apercu") return pagePreview();
+  if(wk) return pageGame(wk, true);
+  if(h==="archives") return pageArchives();
+  if(h==="newsletter") return pageNewsletter();
+  if(h==="a-propos") return pageAbout();
+  pageGame(WEEKS[0], false);
+}
+window.addEventListener("hashchange",()=>{route();window.scrollTo({top:0})});
+
+/* ---------- ACCUEIL / JEU ---------- */
+function pageGame(wk, isArchive, preview){
+  const latest = EDITIONS.slice(0,3);
+  view.innerHTML = `${preview||""}
+  <section class="hero">
+    <div class="left">
+      <div class="eyebrow">${isArchive?'Archive · ':''}${esc(wk.label)} · ${esc(wk.dates)}</div>
+      <h1 class="h1">Vrai ou <span class="bs">Bullshit</span> ?</h1><div class="kick">le sport business en ${wk.items.length} affirmations</div>
+      <p class="lead">${wk.lead?esc(wk.lead):esc(wk.theme)+". Dans le sport business, le vrai a souvent l’air faux. "+wk.items.length+" affirmations, "+TIME+" secondes chacune : à toi de démasquer le bullshit."}</p>
+      <div class="meta"><span class="pill red">${esc(wk.label)}</span><span class="pill">${wk.items.length} questions</span><span class="pill">${TIME} s chacune</span><span class="pill">${Math.round(wk.items.length*TIME/60)} minutes</span></div>
+      <div class="sub">
+        <h3>Les réponses sont dans la newsletter</h3>
+        <p>Chaque semaine, Revenue Game décrypte l’économie du sport : deals, stades, droits TV, athlètes-entrepreneurs.</p>
+        <a class="btn" href="${SITE.subscribeUrl}" target="_blank" rel="noopener">S’abonner sur LinkedIn ↗</a>
+      </div>
+    </div>
+    <div class="game" id="game"></div>
+  </section>
+  ${isArchive?'':`
+  <section class="sec">
+    <div class="sech"><h2>Dernières <i>éditions</i></h2><a href="#newsletter">Toutes les éditions →</a></div>
+    <div class="cards">${latest.map(edCard).join("")}</div>
+  </section>`}`;
+  G = {wk, i:-1, res:[], answered:false};
+  gameIntro();
+}
+
+function gameIntro(){
+  const g=document.getElementById("game");
+  g.innerHTML=`<div class="intro">
+    <div class="eyebrow">Comment jouer</div>
+    <div class="big">Vrai<br>ou <span>bullshit</span> ?</div>
+    <ul>
+      <li>${G.wk.items.length} affirmations sur le business du sport</li>
+      <li>${TIME} secondes pour trancher, sinon c’est perdu</li>
+      <li>La ${G.wk.items.length}e est la question boss : seuls les insiders la trouvent</li>
+      <li>Raccourcis clavier : <b>V</b> pour vrai, <b>B</b> pour bullshit</li>
+    </ul>
+    <button class="btn red" id="start">Lancer la partie →</button>
+  </div>`;
+  document.getElementById("start").onclick=()=>{G.i=0;question()};
+}
+
+function question(){
+  const it=G.wk.items[G.i]; G.answered=false;
+  const g=document.getElementById("game");
+  g.innerHTML=`
+    <div class="ghead"><span>${esc(G.wk.label).toUpperCase()}</span><span>${G.i+1} / ${G.wk.items.length}</span></div>
+    <div class="prog">${G.wk.items.map((x,k)=>`<i class="${k<G.res.length?(G.res[k]?'g':'r'):k===G.i?'c':''} ${x.boss?'boss':''}"></i>`).join("")}</div>
+    <div class="qcard" id="qc">
+      <div class="num"><span class="tag ${it.boss?'boss':''}">${it.boss?'QUESTION BOSS':'#'+String(G.i+1).padStart(2,'0')}</span></div>
+      <div class="q">${esc(it.q)}</div>
+      <div class="bar" id="bar" style="width:100%"></div>
+    </div>
+    <div class="choices" id="ch"><button class="cv" data-a="1">Vrai</button><button class="cb" data-a="0">Bullshit</button></div>
+    <div class="kbd">V = vrai · B = bullshit</div>
+    <div id="rv"></div>`;
+  g.querySelectorAll("#ch button").forEach(b=>b.onclick=()=>answer(b.dataset.a==="1"));
+  const t0=Date.now(); clearInterval(timer);
+  timer=setInterval(()=>{const el=(Date.now()-t0)/1000,bar=document.getElementById("bar");
+    if(!bar){clearInterval(timer);return}
+    bar.style.width=Math.max(0,100-el/TIME*100)+"%"; bar.style.background=el>TIME*.7?"var(--red)":"var(--ink)";
+    if(el>=TIME) answer(null)},100);
+}
+
+function answer(ans){
+  if(G.answered) return; G.answered=true; clearInterval(timer);
+  const it=G.wk.items[G.i], ok=ans===it.a; G.res.push(ok);
+  document.querySelectorAll("#ch button").forEach(b=>b.disabled=true);
+  document.getElementById("qc").insertAdjacentHTML("beforeend",`<div class="stamp ${it.a?'v':'b'}">${it.a?'Vrai':'Bullshit'}</div>`);
+  const ed = it.ed && edBy(it.ed);
+  const last = G.i===G.wk.items.length-1;
+  document.getElementById("rv").innerHTML=`<div class="reveal">
+    <div class="v ${ok?'ok':'ko'}">${ans===null?'Temps écoulé':ok?'Bien vu':'Raté'}</div>
+    <p>${esc(it.x)}</p>
+    <div class="src">Source : ${esc(it.s)}</div>
+    ${ed?`<a class="rg" href="${ed.url||'#newsletter'}" ${ed.url?'target="_blank" rel="noopener"':''}>Toute l’histoire dans Revenue Game #${ed.n} →</a>`:""}
+    <button class="btn" id="nx">${last?'Voir mon score →':'Suivante →'}</button></div>`;
+  document.getElementById("nx").onclick=()=>{G.i++; G.i<G.wk.items.length?question():end()};
+}
+
+document.addEventListener("keydown",e=>{
+  if(!G||G.i<0||!document.getElementById("ch")) return;
+  if(G.answered){ if(e.key==="Enter"){const n=document.getElementById("nx"); if(n) n.click()} return }
+  const k=e.key.toLowerCase(); if(k==="v") answer(true); if(k==="b") answer(false);
+});
+
+function end(){
+  const n=G.wk.items.length, sc=G.res.filter(Boolean).length, boss=G.res[n-1];
+  const p=sc/n; const [t,d] = sc===n?["Directeur partenariats","Sans-faute. Tu pourrais négocier ces deals toi-même."]
+    : p>=.8?["Insider","Tu lis la presse sport business, et ça se voit."]
+    : p>=.6?["Analyste","De bons réflexes, mais quelques chiffres t’ont piégé."]
+    : p>=.4?["Stagiaire","Le sport business est plein de surprises. Bonne nouvelle : la newsletter les explique."]
+    : ["Supporter","Tu regardes le match, pas le business. On peut arranger ça."];
+  const rows=[];for(let k=0;k<n;k+=10)rows.push(G.res.slice(k,k+10).map(r=>r?"🟩":"🟥").join(""));const grid=rows.join("\n");
+  const txt=`Vrai ou Bullshit ? · ${G.wk.label}\n${grid}\n${sc}/${n} · ${t}${boss?" · question boss trouvée 💥":""}\n\nTu fais mieux ? Identifie 2 personnes qui pensent tout savoir sur le sport business 👇\n${SITE.siteUrl?SITE.siteUrl+"\n":""}#RevenueGame #SportBusiness`;
+  document.getElementById("game").innerHTML=`<div class="end">
+    <div class="eyebrow">${esc(G.wk.label)} · Ton résultat</div>
+    <div class="score">${sc}<small>/${n}</small></div>
+    <div class="title">${esc(t)}</div>
+    <p class="d">${esc(d)}${boss?" Et tu as eu la question boss.":""}</p>
+    <div class="grid">${rows.join("<br>")}</div>
+    <div class="share"><textarea id="st">${esc(txt)}</textarea>
+      <div class="row"><button class="btn red" id="cp">Copier pour LinkedIn</button><button class="btn ghost" id="rp">Rejouer</button><a class="btn ghost" href="#archives">Autres semaines</a><span class="okmsg" id="ok"></span></div></div>
+  </div>`;
+  document.getElementById("cp").onclick=async()=>{const ta=document.getElementById("st"),m=document.getElementById("ok");
+    try{await navigator.clipboard.writeText(ta.value);m.textContent="Copié ✓"}catch(e){ta.focus();ta.select();m.textContent="Texte sélectionné : Ctrl+C"}};
+  document.getElementById("rp").onclick=()=>{G.i=0;G.res=[];question()};
+}
+
+/* ---------- APERÇU (brouillon non publié) ---------- */
+async function pagePreview(){
+  view.innerHTML='<p style="font-family:var(--mono);padding:40px 0">Chargement du brouillon…</p>';
+  const d=DRAFT;
+  if(!d||!d.week||!Array.isArray(d.week.items)||!d.week.items.length){
+    view.innerHTML=`<div class="preview-bar"><b>APERÇU</b> Aucun brouillon en attente de validation.</div><p style="padding:20px 0"><a class="btn" href="#jeu">Voir la grille publiée →</a></p>`;
+    return;
+  }
+  const w=d.week, nEd=w.items.filter(i=>i.ed && i.ed===(EDITIONS[0]||{}).n).length;
+  const bar=`<div class="preview-bar"><b>APERÇU · NON PUBLIÉ</b> ${esc(w.label)} · ${esc(d.status==="exemple"?"exemple de brouillon":"en attente de ta validation")} · ${w.items.filter(i=>i.a).length} vrais / ${w.items.filter(i=>!i.a).length} bullshit · ${nEd} question(s) sur la dernière édition
+    <button class="btn ghost" id="pvlist" style="padding:7px 12px;margin-left:auto">Voir toutes les réponses</button></div>
+    <div id="pvanswers" style="display:none" class="pvlist">${w.items.map((it,i)=>`<div><span class="${it.a?'pv-v':'pv-b'}">${it.a?'VRAI':'BS'}</span><b>${i+1}.${it.boss?' [BOSS]':''}</b> ${esc(it.q)}<small>${esc(it.x)} · ${esc(it.s)}${it.ed?' · RG#'+it.ed:''}</small></div>`).join("")}</div>`;
+  pageGame(w,false,bar);
+  document.getElementById("pvlist").onclick=()=>{const el=document.getElementById("pvanswers");el.style.display=el.style.display==="none"?"grid":"none"};
+}
+
+/* ---------- ARCHIVES ---------- */
+function pageArchives(){
+  view.innerHTML=`<section>
+    <div class="sech"><h2>Toutes les <i>grilles</i></h2><span class="pill">${WEEKS.length} grilles</span></div>
+    <div class="weeks">${WEEKS.map((w,i)=>`<div class="wk">
+      <div class="n">${w.n?String(w.n).padStart(2,'0'):'HS'}</div>
+      <div><div class="t">${esc(w.label)} · ${esc(w.theme)}</div><div class="s">${esc(w.dates)}${w.ed.length?' · liée à '+w.ed.map(n=>'RG#'+n).join(', '):''}</div></div>
+      <a class="btn ${i===0?'red':''}" href="#${w.id}">${i===0?'Jouer la grille de la semaine':'Rejouer'} →</a></div>`).join("")}</div>
+  </section>`;
+}
+
+/* ---------- NEWSLETTER ---------- */
+function edCard(e,i){
+  const tag = e.url?'a':'div';
+  return `<${tag} class="ed" ${e.url?`href="${e.url}" target="_blank" rel="noopener"`:''}>
+    ${i===0?'<span class="new">DERNIÈRE ÉDITION</span>':''}
+    <div class="n">#${e.n}</div><div class="t">${esc(e.t)}</div>${e.hook?`<p class="hk">${esc(e.hook)}</p>`:''}<div class="th">${esc(e.theme)}${e.date?' · '+new Date(e.date).toLocaleDateString('fr-FR',{day:'numeric',month:'short',year:'numeric'}):''}${e.url?' · Lire ↗':''}</div></${tag}>`;
+}
+function pageNewsletter(){
+  const themes=["Toutes",...new Set(EDITIONS.map(e=>e.theme))];
+  const all=EDITIONS.filter(e=>edFilter==="Toutes"||e.theme===edFilter), list=all.slice(0,edLimit);
+  view.innerHTML=`<section>
+    <div class="sech"><h2>La <i>newsletter</i></h2><a class="btn" href="${SITE.subscribeUrl}" target="_blank" rel="noopener">S’abonner ↗</a></div>
+    <div class="filters">${themes.map(t=>`<button class="${t===edFilter?'on':''}" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</div>
+    <div class="cards">${list.map((e,i)=>edCard(e,edFilter==="Toutes"?i:-1)).join("")}</div>
+    ${all.length>list.length?`<div style="text-align:center;margin-top:22px"><button class="btn" id="more">Voir plus d’éditions (${all.length-list.length}) ↓</button></div>`:""}
+    <p class="note">${EDITIONS.length} éditions publiées sur LinkedIn depuis novembre 2025. Une nouvelle chaque semaine.</p>
+  </section>`;
+  view.querySelectorAll(".filters button").forEach(b=>b.onclick=()=>{edFilter=b.dataset.t;edLimit=12;pageNewsletter()});
+  const mo=document.getElementById("more"); if(mo) mo.onclick=()=>{edLimit+=12;const y=scrollY;pageNewsletter();scrollTo(0,y)};
+}
+
+/* ---------- À PROPOS ---------- */
+function pageAbout(){
+  view.innerHTML=`<section class="about">
+    <div class="badge"><div class="big">Le sport,<br>côté<br>business.</div><p>Chaque semaine, un deal, une stratégie, un chiffre qui explique le sport d’aujourd’hui.</p></div>
+    <div class="txt">
+      <div class="eyebrow">À propos</div>
+      <h2 class="h1" style="font-size:clamp(46px,6vw,72px);margin-bottom:18px">Antonin Cotte</h2>
+      <p>Je décrypte l’économie du sport dans <b>Revenue Game</b>, une newsletter hebdomadaire publiée sur LinkedIn : naming, droits TV, sponsoring, propriétaires de clubs, athlètes devenus marques.</p>
+      <p>Je suis <b>Business Intelligence Analyst</b> chez <b>SPORTFIVE</b>, après des expériences chez <b>Havas Play</b>, au <b>Paris Basketball</b> et chez les <b>Canadiens de Montréal</b>. Formé à l’<b>ESSEC</b> et à <b>McGill</b>.</p>
+      <p><b>Vrai ou Bullshit ?</b> est né d’une idée simple : dans le sport business, la réalité dépasse souvent la fiction. Chaque semaine, 10 affirmations pour le prouver.</p>
+      <div class="facts"><span class="pill">${EDITIONS.length} éditions</span><span class="pill">Depuis nov. 2025</span><span class="pill">Paris</span></div>
+      <p class="note" style="margin-top:16px">Revenue Game est un projet personnel. Les analyses publiées ici et dans la newsletter n’engagent que moi et pas mon employeur.</p>
+      <div style="margin-top:22px"><a class="btn red" href="${SITE.subscribeUrl}" target="_blank" rel="noopener">Me suivre sur LinkedIn ↗</a></div>
+    </div>
+  </section>`;
+}
+
+route();
+</script>
+</body>
+</html>
