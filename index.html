@@ -814,8 +814,8 @@ const DATA = /*DATA:START*/{
   {
    "id": "pilote",
    "n": 0,
-   "label": "Hors-série · Les classiques",
-   "dates": "Hors-série · à jouer quand tu veux",
+   "label": "Hors-série",
+   "dates": "À jouer quand tu veux",
    "theme": "Les classiques du sport business",
    "ed": [],
    "items": [
@@ -1101,12 +1101,19 @@ async function pagePreview(){
 }
 
 /* ---------- ARCHIVES ---------- */
+function edLine(w){
+  const e=(w.ed||[]).slice().sort((x,y)=>y-x), n=e.length;
+  if(!n) return '';
+  if(n>3) return ' · '+n+' éditions de Revenue Game revisitées';
+  const nums=e.map(x=>'#'+x);
+  return ' · Pour aller plus loin : Revenue Game '+(n===1?nums[0]:nums.slice(0,-1).join(', ')+' et '+nums[n-1]);
+}
 function pageArchives(){
   view.innerHTML=`<section>
     <div class="sech"><h2>Toutes les <i>grilles</i></h2><span class="pill">${WEEKS.length} grilles</span></div>
     <div class="weeks">${WEEKS.map((w,i)=>`<div class="wk">
       <div class="n">${w.n?String(w.n).padStart(2,'0'):'HS'}</div>
-      <div><div class="t">${esc(w.label)} · ${esc(w.theme)}</div><div class="s">${esc(w.dates)}${w.ed.length?' · liée à '+w.ed.map(n=>'RG#'+n).join(', '):''}</div></div>
+      <div><div class="t">${esc(w.label)} · ${esc(w.theme)}</div><div class="s">${esc(w.dates)}${edLine(w)}</div></div>
       <a class="btn ${i===0?'red':''}" href="#${w.id}">${i===0?'Jouer la grille de la semaine':'Rejouer'} →</a></div>`).join("")}</div>
   </section>`;
 }
