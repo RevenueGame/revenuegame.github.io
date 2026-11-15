@@ -121,6 +121,7 @@ main{max-width:1120px;margin:0 auto;padding:28px 20px 70px}
 .share{margin-top:16px;text-align:left}
 .share textarea{width:100%;min-height:150px;border:2px solid var(--ink);background:#fff;padding:12px;font:500 14px/1.5 var(--body);resize:vertical;color:var(--ink)}
 .share .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;align-items:center}
+.end-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:18px}
 .okmsg{font-size:13px;color:var(--green);font-weight:700}
 
 /* PREVIEW */
@@ -977,6 +978,30 @@ function route(){
 window.addEventListener("hashchange",()=>{route();window.scrollTo({top:0})});
 
 /* ---------- ACCUEIL / JEU ---------- */
+/* Ordre de jeu : la difficulté reste croissante par paliers (trois tiers), la question boss reste la dernière,
+   mais l'ordre est tiré au hasard à chaque partie. On écarte les tirages trop lisibles :
+   plus de 3 réponses identiques d'affilée, ou plus de 4 réponses qui alternent vrai/bullshit. */
+function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); const t=a.at(i); a.splice(i,1,a.at(j)); a.splice(j,1,t); } return a; }
+function patternCost(list){
+  let cost=0, same=1, alt=1;
+  for(let i=1;i<list.length;i++){
+    const a=list.at(i).a, b=list.at(i-1).a;
+    same = a===b ? same+1 : 1; alt = a!==b ? alt+1 : 1;
+    if(same>3) cost+=same; if(alt>4) cost+=alt;
+  }
+  return cost;
+}
+function playOrder(items){
+  const bi=items.findIndex(x=>x.boss), boss=bi>=0?items.at(bi):items.at(-1);
+  const rest=items.filter(x=>x!==boss), n=rest.length, k1=Math.ceil(n/3), k2=Math.ceil(2*n/3);
+  let best=null, bestCost=Infinity;
+  for(let t=0;t<60 && bestCost>0;t++){
+    const cand=[...shuffle(rest.slice(0,k1)),...shuffle(rest.slice(k1,k2)),...shuffle(rest.slice(k2)),boss];
+    const c=patternCost(cand); if(c<bestCost){bestCost=c;best=cand}
+  }
+  return best;
+}
+
 function pageGame(wk, isArchive, preview){
   const latest = EDITIONS.slice(0,3);
   view.innerHTML = `${preview||""}
@@ -998,7 +1023,7 @@ function pageGame(wk, isArchive, preview){
     <div class="sech"><h2>Dernières <i>éditions</i></h2><a href="#newsletter">Toutes les éditions →</a></div>
     <div class="cards">${latest.map(edCard).join("")}</div>
   </section>`}`;
-  G = {wk, i:-1, res:[], answered:false};
+  G = {base:wk.items, wk:{...wk, items:playOrder(wk.items)}, i:-1, res:[], answered:false};
   gameIntro();
 }
 
@@ -1069,19 +1094,15 @@ function end(){
     : p>=.4?["Stagiaire","Le sport business est plein de surprises. Bonne nouvelle : la newsletter les explique."]
     : ["Supporter","Tu regardes le match, pas le business. On peut arranger ça."];
   const rows=[];for(let k=0;k<n;k+=10)rows.push(G.res.slice(k,k+10).map(r=>r?"🟩":"🟥").join(""));const grid=rows.join("\n");
-  const txt=`Vrai ou Bullshit ? · ${G.wk.label}\n${grid}\n${sc}/${n} · ${t}${boss?" · question boss trouvée 💥":""}\n\nTu fais mieux ? Identifie 2 personnes qui pensent tout savoir sur le sport business 👇\n${SITE.siteUrl?SITE.siteUrl+"\n":""}#RevenueGame #SportBusiness`;
   document.getElementById("game").innerHTML=`<div class="end">
     <div class="eyebrow">${esc(G.wk.label)} · Ton résultat</div>
     <div class="score">${sc}<small>/${n}</small></div>
     <div class="title">${esc(t)}</div>
     <p class="d">${esc(d)}${boss?" Et tu as eu la question boss.":""}</p>
     <div class="grid">${rows.join("<br>")}</div>
-    <div class="share"><textarea id="st">${esc(txt)}</textarea>
-      <div class="row"><button class="btn red" id="cp">Copier pour LinkedIn</button><button class="btn ghost" id="rp">Rejouer</button><a class="btn ghost" href="#archives">Autres semaines</a><span class="okmsg" id="ok"></span></div></div>
+    <div class="row end-actions"><button class="btn red" id="rp">Rejouer (nouvel ordre)</button><a class="btn ghost" href="#archives">Autres grilles</a><a class="btn ghost" href="#newsletter">Lire la newsletter</a></div>
   </div>`;
-  document.getElementById("cp").onclick=async()=>{const ta=document.getElementById("st"),m=document.getElementById("ok");
-    try{await navigator.clipboard.writeText(ta.value);m.textContent="Copié ✓"}catch(e){ta.focus();ta.select();m.textContent="Texte sélectionné : Ctrl+C"}};
-  document.getElementById("rp").onclick=()=>{G.i=0;G.res=[];question()};
+  document.getElementById("rp").onclick=()=>{G.wk={...G.wk, items:playOrder(G.base)};G.i=0;G.res=[];question()};
 }
 
 /* ---------- APERÇU (brouillon non publié) ---------- */
