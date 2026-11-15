@@ -1158,8 +1158,9 @@ function edCard(e,i){
 const norm=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 function edMatches(e,q){
   if(!q) return true;
-  const hay=norm(`#${e.n} ${e.t} ${e.theme} ${e.hook}`);
-  return norm(q).split(/\s+/).filter(Boolean).every(w=>hay.includes(w.replace(/^#/,"#")));
+  /* chaque mot cherché doit commencer un mot de l'édition : « mba » trouve Mbappé, pas « imbattables » */
+  const words=norm(`#${e.n} ${e.t} ${e.theme} ${e.hook}`).split(/[^a-z0-9#]+/).filter(Boolean);
+  return norm(q).split(/[^a-z0-9#]+/).filter(Boolean).every(w=>/^#\d+$/.test(w) ? words.includes(w) : words.some(x=>x.startsWith(w)));
 }
 function pageNewsletter(){
   const themes=["Toutes",...new Set(EDITIONS.map(e=>e.theme))];
