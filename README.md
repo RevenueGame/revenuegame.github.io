@@ -6,4 +6,4 @@ Site de la newsletter LinkedIn **Revenue Game** d'Antonin Cotte : le jeu hebdoma
 
 Seules les grilles validées par Antonin sont publiées ici. Les brouillons sont préparés et relus dans un espace privé.
 
-Publié avec GitHub Pages.
+Publié avec GitHub Pages sur https://revenuegame.github.io
