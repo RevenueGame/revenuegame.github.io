@@ -122,6 +122,25 @@ main{max-width:1120px;margin:0 auto;padding:28px 20px 70px}
 .share textarea{width:100%;min-height:150px;border:2px solid var(--ink);background:#fff;padding:12px;font:500 14px/1.5 var(--body);resize:vertical;color:var(--ink)}
 .share .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;align-items:center}
 .end-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:18px}
+.rv{text-align:left;margin-top:26px;border-top:2px solid var(--ink);padding-top:18px}
+.rv-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.rv-top h3{font-family:var(--display);font-size:26px;text-transform:uppercase;line-height:1}
+.rv-f{display:flex;gap:6px;flex-wrap:wrap}
+.rv-f button{font:700 12px var(--mono);letter-spacing:.04em;text-transform:uppercase;border:2px solid var(--ink);background:var(--card);color:var(--ink);padding:6px 10px;cursor:pointer}
+.rv-f button.on{background:var(--ink);color:var(--paper)}
+.rv-f button:disabled{opacity:.4;cursor:default}
+.rv-list{display:grid;gap:10px;max-height:560px;overflow:auto;padding-right:4px}
+.rv-it{border:2px solid var(--ink);background:var(--card);padding:12px 14px;border-left-width:8px}
+.rv-it.ok{border-left-color:var(--green)}.rv-it.ko{border-left-color:var(--red)}
+.rv-h{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;font:700 11px var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.rv-n{color:var(--mute)}
+.rv-s.ok{color:var(--green)}.rv-s.ko{color:var(--red)}
+.rv-a{margin-left:auto;color:#fff;padding:2px 8px}.rv-a.v{background:var(--ink)}.rv-a.b{background:var(--red)}
+.rv-q{font-weight:700;font-size:15.5px;line-height:1.35}
+.rv-y{font-size:13px;color:var(--red);font-weight:700;margin-top:4px}
+.rv-x{font-size:14px;line-height:1.5;color:var(--ink2);margin-top:6px}
+.rv-src{font-size:12px;color:var(--mute);margin-top:6px}
+.rv-src a{color:var(--red);font-weight:700}
 .okmsg{font-size:13px;color:var(--green);font-weight:700}
 
 /* PREVIEW */
@@ -228,6 +247,15 @@ const DATA = /*DATA:START*/{
   }
  },
  "editions": [
+  {
+   "n": 53,
+   "t": "Nike x F1 : pourquoi signer avec un sport absent de sa propre stratégie ?",
+   "theme": "Athlètes & marques",
+   "url": "https://www.linkedin.com/pulse/nike-x-f1-pourquoi-signer-avec-un-sport-absent-de-sa-propre-cotte-wpxee",
+   "date": "2026-11-24",
+   "hook": "Le 17 novembre, Nike a présenté à ses actionnaires les cinq sports sur lesquels il misera jusqu'en 2031 : running, training, football, basketball et outdoor. Pas de sport automobile.",
+   "k": "Nike F1 Formule 1 Full Stride Ahead Elliott Hill John Donahoe Puma Adidas Liberty Media F1 Academy Mercedes Audi Red Bull Ferrari McLaren Aston Martin Ligue des champions UEFA ballon Sportswear Jordan Converse Vomero Brooks Hoka ACG Caitlin Clark Shai Gilgeous-Alexander Mumbai Indians Las Vegas Caesars Palace Venetian The Athletic SportsPro équipementier"
+  },
   {
    "n": 52,
    "t": "Quand les propriétaires font grève, qui paie l'addition ?",
@@ -699,8 +727,130 @@ const DATA = /*DATA:START*/{
  ],
  "weeks": [
   {
+   "id": "grille-2",
+   "n": 2,
+   "label": "Vrai ou Bullshit #2",
+   "dates": "26 novembre au 2 décembre 2026",
+   "theme": "Clubs, JO, tennis et Nike en F1",
+   "ed": [
+    53
+   ],
+   "ticker": [],
+   "items": [
+    {
+     "q": "Parmi les cinq sports prioritaires de Nike jusqu'en 2031, on trouve le running, le football, le basketball… et le tennis.",
+     "a": false,
+     "x": "Bullshit : les cinq sports sont le running, le training, le football, le basketball et l'outdoor. Ni tennis, ni sport automobile. Pourtant, trois jours après avoir présenté ce plan à ses actionnaires, Nike signait avec la Formule 1.",
+     "s": "Revenue Game #53",
+     "vid": "v77c111cf63",
+     "ed": 53
+    },
+    {
+     "q": "Les offres finales pour racheter Manchester United atteignent environ 8 milliards de dollars.",
+     "a": false,
+     "x": "Bullshit : un peu plus de 6,2 Md$. C'est énorme pour un club de foot, mais en dessous des 7,2 Md$ espérés par la famille Glazer, propriétaire depuis 2005.",
+     "s": "Front Office Sports, 5 novembre 2026",
+     "vid": "v8eac5a6a44"
+    },
+    {
+     "q": "Cristiano Ronaldo a cofondé un studio de production avec Matthew Vaughn, le réalisateur de Kingsman.",
+     "a": true,
+     "x": "Vrai : le studio s'appelle UR Marv. Son premier projet, Day 1s, est une série dramatique sur le football dans laquelle Ronaldo joue son propre rôle. Après les vêtements et les hôtels, CR7 devient propriétaire de contenus.",
+     "s": "Inside World Football, 13 novembre 2026",
+     "vid": "v5f979e7f1a"
+    },
+    {
+     "q": "Selon la Cour des comptes, les JO de Paris 2024 ont ajouté un demi-point de croissance au PIB français en 2024.",
+     "a": false,
+     "x": "Bullshit : 0,05 point seulement, dix fois moins, et sous les 0,068 point espérés. Pour un coût de 6,68 Md€ pour les administrations publiques. Le grand succès populaire n'a pas été un moteur économique.",
+     "s": "2Playbook, 23 novembre 2026",
+     "vid": "v6a3351d117"
+    },
+    {
+     "q": "Rafael Nadal a été élu au conseil d'administration du Real Madrid avec plus de 99 % des voix des socios.",
+     "a": true,
+     "x": "Vrai : 1 704 voix sur 1 713 votes exprimés à l'assemblée des socios. La légende du tennis, fan déclaré du club, entre dans la gouvernance du club le plus riche du monde.",
+     "s": "Calcio e Finanza, 23 novembre 2026",
+     "vid": "vb8e7ef96c9"
+    },
+    {
+     "q": "En 53 ans d'histoire, la WTA n'avait jamais eu sa propre gamme de produits dérivés. Sa première : avec Hello Kitty.",
+     "a": true,
+     "x": "Vrai : le circuit féminin lance enfin du merchandising à son nom, avec la marque japonaise de Sanrio. Hello Kitty parle à un public jeune et féminin, exactement celui que la WTA veut fidéliser.",
+     "s": "SportsPro, 16 novembre 2026",
+     "vid": "v09cbbedab2"
+    },
+    {
+     "q": "Un tribunal italien a annulé le contrat de sponsoring de 19 M€ entre la Lazio et Polymarket, la plateforme de paris sur l'actualité.",
+     "a": true,
+     "x": "Vrai : le deal a été annulé par la justice. Les marchés prédictifs comme Polymarket cherchent à entrer dans le foot européen, et ce jugement montre que la porte n'est pas grande ouverte.",
+     "s": "Front Office Sports, 13 novembre 2026",
+     "vid": "vd706f97b70"
+    },
+    {
+     "q": "Le Royaume-Uni accueillera la Coupe du monde féminine 2035, avec 32 équipes.",
+     "a": false,
+     "x": "Bullshit : ce sera 48 équipes, dans 22 stades et 16 villes. Le Royaume-Uni a été désigné sans aucun concurrent, et ce sera la première Coupe du monde organisée sur son sol depuis 1966.",
+     "s": "Inside World Football, 24 novembre 2026",
+     "vid": "v0320b49126"
+    },
+    {
+     "q": "L'US Open reverse environ 30 % de ses revenus aux joueurs sous forme de prize money.",
+     "a": false,
+     "x": "Bullshit : 14 % seulement. En 2025, le tournoi a généré 637,9 M$ de revenus d'exploitation et en a reversé 90 M$ aux joueurs. C'est tout l'enjeu du bras de fer entre les meilleurs joueurs et les Grands Chelems.",
+     "s": "Front Office Sports, 16 novembre 2026",
+     "vid": "v68db134658"
+    },
+    {
+     "q": "Le naming du futur stade du Panathinaïkos rapportera environ 2 M€ par an au club.",
+     "a": false,
+     "x": "Bullshit : 7 à 7,5 M€ par an. Le bookmaker Novibet a signé pour 50 M€ sur sept ans, plus du triple du naming du rival AEK Athènes, qui touche environ 2 M€ par an.",
+     "s": "Sportcal, 12 novembre 2026",
+     "vid": "v55899e60ce"
+    },
+    {
+     "q": "Le Real Madrid est le premier club de football à dépasser 1,2 milliard d'euros de revenus sur une saison.",
+     "a": true,
+     "x": "Vrai : environ 1,221 Md€ en 2025-26, un record pour un club. Et il vise près de 1,4 Md€ en 2026-27, porté par le Bernabéu rénové, qui tourne aussi les jours sans match.",
+     "s": "Calcio e Finanza, 12 novembre 2026",
+     "vid": "v814fa71bd2"
+    },
+    {
+     "q": "Le Bayern Munich vend plus de 300 M€ de produits dérivés par an.",
+     "a": false,
+     "x": "Bullshit : 152,8 M€, déjà un record pour le club. Le Bayern a aussi signé un chiffre d'affaires record de 988,2 M€ en 2025-26 et son 34e exercice bénéficiaire consécutif.",
+     "s": "Off The Pitch, 25 novembre 2026",
+     "vid": "vcb42efaf31"
+    },
+    {
+     "q": "Au Brésil, l'interdiction des sponsors de paris prive Flamengo de 600 millions de réais promis par Betano.",
+     "a": true,
+     "x": "Vrai : ce sont les revenus prévus pour 2027-2028. Les bookmakers avaient versé 1,14 milliard de réais aux 20 plus grands clubs brésiliens en 2025 : toute l'économie du foot brésilien est touchée.",
+     "s": "Insider Sport, 17 novembre 2026",
+     "vid": "va50cdd88a2"
+    },
+    {
+     "q": "Pour fournir le ballon de la Ligue des champions, Nike paiera environ deux fois plus qu'Adidas.",
+     "a": true,
+     "x": "Vrai : environ 40 M€ par an de 2027 à 2031, le double du contrat actuel. Adidas fournissait le ballon depuis plus de 25 ans. Le football fait partie des cinq sports prioritaires de Nike.",
+     "s": "Revenue Game #53 ; SportsPro, 16 novembre 2026",
+     "vid": "vd59c38c140",
+     "ed": 53
+    },
+    {
+     "q": "Nike a classé sa future gamme Formule 1 dans sa division performance, aux côtés du running et du football.",
+     "a": false,
+     "x": "Bullshit : Nike la range dans le Sportswear, sa division lifestyle, avec la mode. Nike n'équipe ni pilotes ni écuries : il habille ceux qui regardent. La première collection a été dévoilée au Grand Prix de Las Vegas et vendue au Caesars Palace et au Venetian.",
+     "s": "Revenue Game #53",
+     "vid": "v31ff8dd0cc",
+     "ed": 53,
+     "boss": true
+    }
+   ]
+  },
+  {
    "id": "special-1-an",
-   "n": 47,
+   "n": 1,
    "label": "Spécial 1 an",
    "dates": "16 au 22 novembre 2026",
    "special": true,
@@ -1084,7 +1234,7 @@ function pageGame(wk, isArchive, preview){
     <div class="sech"><h2>Dernières <i>éditions</i></h2><a href="#newsletter">Toutes les éditions →</a></div>
     <div class="cards">${latest.map(edCard).join("")}</div>
   </section>`}`;
-  G = {base:wk.items, wk:{...wk, items:playOrder(wk.items)}, i:-1, res:[], answered:false};
+  G = {base:wk.items, wk:{...wk, items:playOrder(wk.items)}, i:-1, res:[], ans:[], answered:false};
   gameIntro();
 }
 
@@ -1127,7 +1277,7 @@ function question(){
 
 function answer(ans){
   if(G.answered) return; G.answered=true; clearInterval(timer);
-  const it=G.wk.items[G.i], ok=ans===it.a; G.res.push(ok);
+  const it=G.wk.items[G.i], ok=ans===it.a; G.res.push(ok); G.ans.push(ans);
   document.querySelectorAll("#ch button").forEach(b=>b.disabled=true);
   document.getElementById("qc").insertAdjacentHTML("beforeend",`<div class="stamp ${it.a?'v':'b'}">${it.a?'Vrai':'Bullshit'}</div>`);
   const ed = it.ed && edBy(it.ed);
@@ -1154,16 +1304,30 @@ function end(){
     : p>=.6?["Analyste","De bons réflexes, mais quelques chiffres t’ont piégé."]
     : p>=.4?["Stagiaire","Le sport business est plein de surprises. Bonne nouvelle : la newsletter les explique."]
     : ["Supporter","Tu regardes le match, pas le business. On peut arranger ça."];
-  const rows=[];for(let k=0;k<n;k+=10)rows.push(G.res.slice(k,k+10).map(r=>r?"🟩":"🟥").join(""));const grid=rows.join("\n");
+  const nko=G.res.filter(r=>!r).length;
+  const lab=a=>a===null?'Pas de réponse':a?'Vrai':'Bullshit';
+  const review=G.wk.items.map((it,k)=>{const ok=G.res[k], ed=it.ed&&edBy(it.ed);
+    return `<div class="rv-it ${ok?'ok':'ko'}"><div class="rv-h"><span class="rv-n">${it.boss?'BOSS':String(k+1).padStart(2,'0')}</span><span class="rv-s ${ok?'ok':'ko'}">${ok?'Bien vu':G.ans[k]===null?'Temps écoulé':'Raté'}</span><span class="rv-a ${it.a?'v':'b'}">${it.a?'Vrai':'Bullshit'}</span></div>
+    <div class="rv-q">${esc(it.q)}</div>
+    ${ok?'':`<div class="rv-y">Ta réponse : ${lab(G.ans[k])}</div>`}
+    <p class="rv-x">${esc(it.x)}</p><div class="rv-src">Source : ${esc(it.s)}${ed?` · <a href="${ed.url||'#newsletter'}" ${ed.url?'target="_blank" rel="noopener"':''}>Revenue Game #${ed.n} →</a>`:''}</div></div>`}).join("");
   document.getElementById("game").innerHTML=`<div class="end">
     <div class="eyebrow">${esc(G.wk.label)} · Ton résultat</div>
     <div class="score">${sc}<small>/${n}</small></div>
     <div class="title">${esc(t)}</div>
     <p class="d">${esc(d)}${boss?" Et tu as eu la question boss.":""}</p>
-    <div class="grid">${rows.join("<br>")}</div>
     <div class="row end-actions"><button class="btn red" id="rp">Rejouer (nouvel ordre)</button><a class="btn ghost" href="#archives">Autres grilles</a><a class="btn ghost" href="#newsletter">Lire la newsletter</a></div>
+    <div class="rv">
+      <div class="rv-top"><h3>Revois la grille</h3><div class="rv-f"><button class="on" data-f="all">Toutes (${n})</button><button data-f="ko" ${nko?'':'disabled'}>Mes erreurs (${nko})</button><button data-f="v">Les vrais</button></div></div>
+      <div class="rv-list" id="rvl">${review}</div>
+    </div>
   </div>`;
-  document.getElementById("rp").onclick=()=>{G.wk={...G.wk, items:playOrder(G.base)};G.i=0;G.res=[];question()};
+  document.getElementById("rp").onclick=()=>{G.wk={...G.wk, items:playOrder(G.base)};G.i=0;G.res=[];G.ans=[];question()};
+  document.querySelectorAll(".rv-f button").forEach(b=>b.onclick=()=>{
+    document.querySelectorAll(".rv-f button").forEach(x=>x.classList.toggle("on",x===b));
+    const f=b.dataset.f;
+    document.querySelectorAll("#rvl .rv-it").forEach((el,k)=>{el.style.display=f==="all"||(f==="ko"&&!G.res[k])||(f==="v"&&G.wk.items[k].a)?"":"none"});
+  });
 }
 
 /* ---------- APERÇU (brouillon non publié) ---------- */
@@ -1249,7 +1413,7 @@ function pageAbout(){
       <h2 class="h1" style="font-size:clamp(46px,6vw,72px);margin-bottom:18px">Antonin Cotte</h2>
       <p>Je décrypte l’économie du sport dans <b>Revenue Game</b>, une newsletter hebdomadaire publiée sur LinkedIn : naming, droits TV, sponsoring, propriétaires de clubs, athlètes devenus marques.</p>
       <p>Je suis <b>Business Intelligence Analyst</b> chez <b>SPORTFIVE</b>, après des expériences chez <b>Havas Play</b>, au <b>Paris Basketball</b> et chez les <b>Canadiens de Montréal</b>. Formé à l’<b>ESSEC</b> et à <b>McGill</b>.</p>
-      <p><b>Vrai ou Bullshit ?</b> est né d’une idée simple : dans le sport business, la réalité dépasse souvent la fiction. Chaque semaine, 10 affirmations pour le prouver.</p>
+      <p><b>Vrai ou Bullshit ?</b> est né d’une idée simple : dans le sport business, la réalité dépasse souvent la fiction. Chaque semaine, une grille d’affirmations pour le prouver.</p>
       <div class="facts"><span class="pill">${EDITIONS.length} éditions</span><span class="pill">Depuis nov. 2025</span><span class="pill">Paris</span></div>
       <p class="note" style="margin-top:16px">Revenue Game est un projet personnel. Les analyses publiées ici et dans la newsletter n’engagent que moi et pas mon employeur.</p>
       <div style="margin-top:22px"><a class="btn red" href="${SITE.subscribeUrl}" target="_blank" rel="noopener">Me suivre sur LinkedIn ↗</a></div>
