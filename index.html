@@ -282,6 +282,11 @@ footer b{color:var(--ink);font-family:var(--display);font-weight:400;font-size:1
 
 }
 </style>
+<script>
+(function(){if(location.hostname!=='revenuegame.github.io')return;var s=document.createElement('script');s.async=true;s.src='//gc.zgo.at/count.js';s.setAttribute('data-goatcounter','https://revenuegame.goatcounter.com/count');document.head.appendChild(s);
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="linkedin.com"]');if(a)rgTrack(a.href.indexOf('/pulse/')>-1?'clic-edition':'clic-abonnement',a.href);},true);})();
+function rgTrack(name,title){try{if(location.hostname!=='revenuegame.github.io')return;var go=function(){window.goatcounter.count({path:name,title:title||name,event:true});};if(window.goatcounter&&window.goatcounter.count){go();}else{setTimeout(function(){if(window.goatcounter&&window.goatcounter.count)go();},1500);}}catch(e){}}
+</script>
 </head>
 <body>
 <div class="shell">
@@ -1314,7 +1319,7 @@ function gameIntro(){
     </ul>
     <button class="btn red" id="start">Lancer la partie →</button>
   </div>`;
-  document.getElementById("start").onclick=()=>{G.i=0;question()};
+  document.getElementById("start").onclick=()=>{rgTrack("partie-lancee",G.wk.label);G.i=0;question()};
 }
 
 function question(){
@@ -1375,6 +1380,7 @@ function end(){
     <div class="rv-q">${esc(it.q)}</div>
     ${ok?'':`<div class="rv-y">Ta réponse : ${lab(G.ans[k])}</div>`}
     <p class="rv-x">${esc(it.x)}</p><div class="rv-src">${ed&&/^Revenue Game #\d+$/.test(it.s)?'':'Source : '+esc(it.s)}${ed?`${/^Revenue Game #\d+$/.test(it.s)?'':' · '}<a href="${ed.url||'#newsletter'}" ${ed.url?'target="_blank" rel="noopener"':''}>Revenue Game #${ed.n} →</a>`:''}</div></div>`}).join("");
+  rgTrack("partie-terminee",G.wk.label);rgTrack("score-"+sc+"-sur-"+n,G.wk.label);
   document.getElementById("game").innerHTML=`<div class="end">
     <div class="eyebrow">${esc(G.wk.label)} · Ton résultat</div>
     <div class="score">${sc}<small>/${n}</small></div>
@@ -1388,7 +1394,7 @@ function end(){
       <div class="rv-top sech"><h2>Revois la <i>grille</i></h2><div class="rv-f"><button class="on" data-f="all">Toutes (${n})</button><button data-f="ko" ${nko?'':'disabled'}>Mes erreurs (${nko})</button><button data-f="v">Les vrais</button></div></div>
       <div class="rv-list" id="rvl">${review}</div>
     </section>`);
-  document.getElementById("rp").onclick=()=>{const w=document.getElementById("rvwide"); if(w) w.remove(); G.wk={...G.wk, items:playOrder(G.base)};G.i=0;G.res=[];G.ans=[];question()};
+  document.getElementById("rp").onclick=()=>{rgTrack("rejouer",G.wk.label);const w=document.getElementById("rvwide"); if(w) w.remove(); G.wk={...G.wk, items:playOrder(G.base)};G.i=0;G.res=[];G.ans=[];question()};
   document.querySelector(".rv-go").onclick=e=>{e.preventDefault();document.getElementById("rvwide").scrollIntoView({behavior:"smooth",block:"start"})};
   document.querySelectorAll(".rv-f button").forEach(b=>b.onclick=()=>{
     document.querySelectorAll(".rv-f button").forEach(x=>x.classList.toggle("on",x===b));
@@ -1483,6 +1489,7 @@ function pageAbout(){
       <p><b>Vrai ou Bullshit ?</b> est né d’une idée simple : dans le sport business, la réalité dépasse souvent la fiction. Chaque semaine, une grille d’affirmations pour le prouver.</p>
       <div class="facts"><span class="pill">${EDITIONS.length} éditions</span><span class="pill">Depuis nov. 2025</span><span class="pill">Paris</span></div>
       <p class="note" style="margin-top:16px">Revenue Game est un projet personnel, mené à titre indépendant. Les analyses publiées sur ce site et dans la newsletter n’engagent que moi, et en aucun cas mon employeur.</p>
+      <p class="note" style="margin-top:6px">Mesure d’audience anonyme avec GoatCounter : aucun cookie, aucune donnée personnelle.</p>
       <div style="margin-top:22px"><a class="btn red" href="${SITE.subscribeUrl}" target="_blank" rel="noopener">Me suivre sur LinkedIn ↗</a></div>
     </div>
   </section>`;
